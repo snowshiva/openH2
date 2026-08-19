@@ -29,17 +29,17 @@
 	];
 </script>
 
-<section class="mx-auto max-w-5xl px-4 py-16">
+<section class="mx-auto max-w-5xl px-4">
 	<div class="mx-auto max-w-2xl text-center">
 		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">
 			Why hydrogen, and why make it yourself?
 		</h2>
 		<p class="text-muted-foreground mt-4">
-			Molecular hydrogen is having a moment as a health supplement, and the technology behind it
-			is simple enough for anyone to own. openH2 exists to share what works:
-			<a href="/research" class="text-accent no-underline hover:underline">the science</a>,
-			<a href="/plans-and-parts" class="text-accent no-underline hover:underline">the hardware</a
-			>, and the safety knowledge to do it right.
+			Molecular hydrogen is having a moment as a health supplement, and the technology behind it is
+			simple enough for anyone to own. openH2 exists to share what works:
+			<a href="/research" class="link">the science</a>,
+			<a href="/plans-and-parts" class="link">the hardware</a>, and the safety knowledge to do it
+			right.
 		</p>
 	</div>
 	<div class="mt-10 grid gap-4 md:grid-cols-2">

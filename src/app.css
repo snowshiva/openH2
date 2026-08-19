@@ -13,6 +13,15 @@
 	--border: oklch(0.9 0.01 220);
 	--accent: oklch(0.6 0.13 235);
 	--accent-foreground: oklch(0.99 0.003 220);
+
+	/* Vertical rhythm for top-level page sections. Change it here, not per section. */
+	--section-py: 4rem;
+}
+
+@media (min-width: 48rem) {
+	:root {
+		--section-py: 5rem;
+	}
 }
 
 .dark {
@@ -37,7 +46,28 @@
 	--color-accent-foreground: var(--accent-foreground);
 }
 
-body {
-	background-color: var(--color-background);
-	color: var(--color-foreground);
+@layer base {
+	body {
+		background-color: var(--background);
+		color: var(--foreground);
+	}
+
+	/* Every top-level section breathes by default, so no page has to remember to.
+	   A section can still opt out or go bigger with its own py-* utility, since
+	   utilities sit in a later cascade layer than base. */
+	main > section {
+		padding-block: var(--section-py);
+	}
+}
+
+@layer components {
+	/* The one place link styling lives: accent color, underline on hover only. */
+	.link {
+		color: var(--accent);
+		text-decoration: none;
+	}
+
+	.link:hover {
+		text-decoration: underline;
+	}
 }

@@ -9,7 +9,7 @@
 				{#if i > 0}
 					<span class="text-muted-foreground select-none" aria-hidden="true">|</span>
 				{/if}
-				<a href={link.href} class="text-accent no-underline hover:underline">
+				<a href={link.href} class="link">
 					{link.label}
 				</a>
 			{/each}
@@ -17,16 +17,16 @@
 		<p class="text-muted-foreground mx-auto mt-4 max-w-2xl text-center text-xs leading-relaxed">
 			Everything on openH2.org is educational content, not medical advice. Consult a qualified
 			healthcare provider before using hydrogen for any health purpose. Building and operating
-			electrolysis equipment involves electricity and flammable gas; you assume all risk. Read
-			the full
-			<a href="/disclaimer" class="text-accent no-underline hover:underline">disclaimer</a>.
+			electrolysis equipment involves electricity and flammable gas; you assume all risk. Read the
+			full
+			<a href="/disclaimer" class="link">disclaimer</a>.
 		</p>
 		<p class="text-muted-foreground mt-3 text-center">
 			© {new Date().getFullYear()} openH2.org
 			<span class="select-none" aria-hidden="true">·</span>
-			<a href="/licensing" class="text-accent no-underline hover:underline">Licensing</a>
+			<a href="/licensing" class="link">Licensing</a>
 			<span class="select-none" aria-hidden="true">·</span>
-			<a href="/disclaimer" class="text-accent no-underline hover:underline">Disclaimer</a>
+			<a href="/disclaimer" class="link">Disclaimer</a>
 		</p>
 	</div>
 </footer>

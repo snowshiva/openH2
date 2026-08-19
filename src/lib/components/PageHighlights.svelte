@@ -24,9 +24,8 @@
 </script>
 
 <section class="border-border bg-muted/50 border-t">
-	<div class="mx-auto max-w-5xl px-4 py-16">
-		<h2 class="text-center text-2xl font-bold tracking-tight md:text-3xl">Explore the site</h2>
-		<div class="mt-10 grid gap-4 md:grid-cols-3">
+	<div class="mx-auto max-w-5xl px-4">
+		<div class="grid gap-4 md:grid-cols-3">
 			{#each pages as page (page.href)}
 				<a
 					href={page.href}

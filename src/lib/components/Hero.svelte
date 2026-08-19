@@ -13,7 +13,7 @@
 		H<sub>2</sub> for <span class="text-accent">everyone</span>
 	</h1>
 	<p class="text-muted-foreground mt-6 max-w-xl text-lg text-balance">
-		Open source knowledge and hardware for molecular hydrogen: electrolysis, health, safety,
-		and experimentation.
+		Open source knowledge and hardware for molecular hydrogen: electrolysis, health, safety, and
+		experimentation.
 	</p>
 </section>

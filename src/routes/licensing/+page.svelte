@@ -6,11 +6,11 @@
 	/>
 </svelte:head>
 
-<section class="mx-auto max-w-3xl px-4 py-16">
+<section class="mx-auto max-w-3xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Licensing</h1>
 	<p class="text-muted-foreground mt-4">
-		Everything on openH2.org is open. Different kinds of work call for different licenses, so
-		here is exactly what applies to what.
+		Everything on openH2.org is open. Different kinds of work call for different licenses, so here
+		is exactly what applies to what.
 	</p>
 
 	<div class="mt-10 space-y-10">
@@ -22,7 +22,7 @@
 					href="https://opensource.org/license/mit"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="text-accent no-underline hover:underline">MIT License</a
+					class="link">MIT License</a
 				>. Use it, copy it, adapt it. Just keep the copyright notice.
 			</p>
 		</div>
@@ -35,10 +35,9 @@
 					href="https://creativecommons.org/licenses/by-sa/4.0/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="text-accent no-underline hover:underline"
-					>Creative Commons Attribution-ShareAlike 4.0</a
-				>. Share and adapt freely, with attribution to openH2.org, and derivative works must
-				stay under the same license.
+					class="link">Creative Commons Attribution-ShareAlike 4.0</a
+				>. Share and adapt freely, with attribution to openH2.org, and derivative works must stay
+				under the same license.
 			</p>
 		</div>
 
@@ -50,11 +49,10 @@
 					href="https://ohwr.org/cern_ohl_w_v2.txt"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="text-accent no-underline hover:underline"
-					>CERN Open Hardware Licence v2 (Weakly Reciprocal)</a
+					class="link">CERN Open Hardware Licence v2 (Weakly Reciprocal)</a
 				>. Build from these designs, modify them, even sell what you build. If you improve the
-				designs themselves, publish your changes under the same terms so the improvements flow
-				back to everyone.
+				designs themselves, publish your changes under the same terms so the improvements flow back
+				to everyone.
 			</p>
 		</div>
 	</div>
