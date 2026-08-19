@@ -11,5 +11,6 @@ export const links: NavLink[] = [
 			{ href: '/plans-and-parts/prebuilt-machines', label: 'Prebuilt Machines' }
 		]
 	},
-	{ href: '/health-and-h2', label: 'Health & H₂' }
+	{ href: '/health-and-h2', label: 'Health & H₂' },
+	{ href: '/about', label: 'About' }
 ];

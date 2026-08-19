@@ -1,0 +1,70 @@
+<svelte:head>
+	<title>About | openH2</title>
+	<meta
+		name="description"
+		content="The story behind openH2: quitting smoking, a slow recovery, and building hydrogen therapy from scratch."
+	/>
+</svelte:head>
+
+<section class="mx-auto max-w-3xl px-4 py-16">
+	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">About openH2</h1>
+
+	<div class="text-muted-foreground mt-8 space-y-6 text-lg leading-relaxed">
+		<p>
+			I quit smoking, and I thought the hard part would be the quitting. It wasn't. The healing
+			turned out to be slow and painful. My lungs hurt, I didn't know how much damage I had
+			done, and I didn't know whether it would ever fully heal. There is a particular kind of
+			powerlessness in that: waiting on your own body and not knowing.
+		</p>
+		<p>
+			Rather than just wait, I decided to do something. I already knew about hydrogen's
+			potential from hydrogen tablets, the kind that fizz into a glass of water, but tablets
+			are an expensive and unsustainable way to get a daily therapy. I knew hydrogen could be
+			made by electrolysis, and I wondered whether breathing it could be a better and more
+			affordable route. So I set out to learn everything I could about hydrogen and
+			electrolysis, because if I was going to do this, I was going to do it safely.
+		</p>
+		<p>
+			I threw myself into the research: how to build electrolysis machines, which materials
+			are safe and which quietly poison the gas, different electrolytes, different form
+			factors. I compared the real options for hydrogen therapy, tablets, water machines, and
+			inhalation, and building my own turned out to work better for me than any of them.
+			Version after version, the design got simpler and better. By the sixth version it was
+			good enough that I started using it on myself.
+		</p>
+		<p>
+			The first days were not what I expected. For three days I felt worse: unexplainably
+			tired, sleeping far more than usual. On the fourth day it turned, and I started feeling
+			much better. On the fifth day I felt a mild euphoria, and meditation, which usually
+			takes effort, came easily. I have practiced natural medicine most of my adult life, and
+			I recognized the pattern of feeling worse before better. That experience is mine alone.
+			It is a story, not a study, and I present it as exactly that. But it is why this project
+			exists.
+		</p>
+		<p>
+			Somewhere in those weeks the project stopped being only about repairing my lungs.
+			Hydrogen is the first element, the smallest molecule, the most abundant thing in the
+			universe, two-thirds of every drop of water. The more I learned, the more it seemed
+			strange that access to it should run through expensive proprietary machines and
+			overclaiming marketing.
+		</p>
+		<p>
+			So this is openH2: everything I learned, documented properly and given away. The build
+			plans are open source. The safety knowledge, which materials, which electrolytes, what
+			can go wrong and how to verify your own build, is published with the same care as the
+			designs, because people will actually build these. The research is graded honestly,
+			including where the evidence is thin. This is why we document: so the path is easier for
+			the next person than it was for me.
+		</p>
+	</div>
+
+	<div class="border-border mt-10 flex flex-wrap gap-4 border-t pt-8">
+		<a href="/plans-and-parts" class="text-accent no-underline hover:underline">
+			See the plans
+		</a>
+		<a href="/research" class="text-accent no-underline hover:underline"> Read the research </a>
+		<a href="/health-and-h2" class="text-accent no-underline hover:underline">
+			Health &amp; H₂
+		</a>
+	</div>
+</section>
