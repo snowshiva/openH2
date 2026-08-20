@@ -16,6 +16,10 @@
 
 	/* Vertical rhythm for top-level page sections. Change it here, not per section. */
 	--section-py: 4rem;
+
+	/* Ambient bubble field. Hex, because the canvas parses this value directly. */
+	--bubble: #3f9dd4;
+	--bubble-opacity: 0.5;
 }
 
 @media (min-width: 48rem) {
@@ -33,6 +37,8 @@
 	--border: oklch(0.3 0.02 240);
 	--accent: oklch(0.76 0.11 220);
 	--accent-foreground: oklch(0.17 0.015 240);
+	--bubble: #7fd0e8;
+	--bubble-opacity: 0.75;
 }
 
 @theme inline {
