@@ -5,21 +5,24 @@
 /* Lean semantic tokens — light is the default, .dark overrides.
    This is the whole theme system; add tokens only when a design needs them. */
 :root {
-	--background: oklch(0.99 0.003 220);
-	--foreground: oklch(0.22 0.02 240);
-	--card: oklch(1 0 0);
-	--muted: oklch(0.955 0.007 220);
-	--muted-foreground: oklch(0.5 0.02 240);
-	--border: oklch(0.9 0.01 220);
-	--accent: oklch(0.6 0.13 235);
-	--accent-foreground: oklch(0.99 0.003 220);
+	/* Very light water: a pale aqua tint rather than plain white. */
+	--background: oklch(0.985 0.014 205);
+	--foreground: oklch(0.24 0.02 230);
+	--card: oklch(0.997 0.005 205);
+	--muted: oklch(0.955 0.022 205);
+	--muted-foreground: oklch(0.48 0.03 220);
+	--border: oklch(0.89 0.025 205);
+	--accent: oklch(0.52 0.13 220);
+	--accent-foreground: oklch(0.99 0.005 205);
 
 	/* Vertical rhythm for top-level page sections. Change it here, not per section. */
 	--section-py: 4rem;
 
-	/* Ambient bubble field. Hex, because the canvas parses this value directly. */
-	--bubble: #3f9dd4;
-	--bubble-opacity: 0.5;
+	/* Ambient bubble field. Hex, because the canvas parses this value directly.
+	   Against a pale background the bubbles have to read as darker water, so
+	   they run at full layer opacity here. */
+	--bubble: #0d6a99;
+	--bubble-opacity: 1;
 }
 
 @media (min-width: 48rem) {
@@ -29,16 +32,17 @@
 }
 
 .dark {
-	--background: oklch(0.17 0.015 240);
-	--foreground: oklch(0.93 0.01 220);
-	--card: oklch(0.21 0.018 240);
-	--muted: oklch(0.25 0.02 240);
-	--muted-foreground: oklch(0.65 0.02 230);
-	--border: oklch(0.3 0.02 240);
-	--accent: oklch(0.76 0.11 220);
-	--accent-foreground: oklch(0.17 0.015 240);
-	--bubble: #7fd0e8;
-	--bubble-opacity: 0.75;
+	/* Deep water. */
+	--background: oklch(0.18 0.035 218);
+	--foreground: oklch(0.93 0.015 205);
+	--card: oklch(0.22 0.035 218);
+	--muted: oklch(0.26 0.035 218);
+	--muted-foreground: oklch(0.68 0.03 210);
+	--border: oklch(0.32 0.03 218);
+	--accent: oklch(0.78 0.12 205);
+	--accent-foreground: oklch(0.18 0.035 218);
+	--bubble: #8fdcf0;
+	--bubble-opacity: 0.55;
 }
 
 @theme inline {

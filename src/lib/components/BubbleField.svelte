@@ -61,7 +61,7 @@
 				amp2: rand(3, 16),
 				freq2: rand(0.1, 0.4),
 				phase2: rand(0, TAU),
-				alpha: 0.15 + (r / R_MAX) * 0.5
+				alpha: 0.35 + (r / R_MAX) * 0.65
 			};
 		};
 
