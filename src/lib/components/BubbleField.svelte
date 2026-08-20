@@ -15,8 +15,8 @@
 		alpha: number;
 	};
 
-	const R_MIN = 0.4;
-	const R_MAX = 2.4;
+	const R_MIN = 0.35;
+	const R_MAX = 1.6;
 	const BUCKETS = 12;
 
 	let canvas: HTMLCanvasElement | undefined = $state();
@@ -45,14 +45,14 @@
 		const spawn = (y: number): Bubble => {
 			// Biased toward the small end, so the field is mostly fine fizz with a
 			// scattering of larger bubbles through it.
-			const r = R_MIN + (R_MAX - R_MIN) * Math.pow(Math.random(), 2.2);
+			const r = R_MIN + (R_MAX - R_MIN) * Math.pow(Math.random(), 2.6);
 			return {
 				x: rand(0, w),
 				y,
 				r,
 				// Buoyancy: rise speed goes with the square of the radius, so the big
 				// bubbles cross in ~7s while the fine ones drift up for ~20s.
-				v: 34 + r * r * 15,
+				v: 34 + r * r * 35,
 				// Two incommensurate sways sum into a wandering path that never
 				// visibly repeats.
 				amp: rand(2, 11),
@@ -61,7 +61,7 @@
 				amp2: rand(3, 16),
 				freq2: rand(0.1, 0.4),
 				phase2: rand(0, TAU),
-				alpha: 0.12 + (r / R_MAX) * 0.55
+				alpha: 0.15 + (r / R_MAX) * 0.5
 			};
 		};
 

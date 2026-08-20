@@ -1,6 +1,6 @@
 # openH2
 
-Source for [openH2.org](https://openh2.org): open source knowledge and hardware for molecular hydrogen. Electrolysis, health, safety, and experimentation.
+Source for [openH2.org](https://openh2.org): open source knowledge and hardware for molecular hydrogen: health, safety, and electrolysis experimentation.
 
 ## Stack
 

@@ -8,7 +8,7 @@
 	<title>openH2 | H₂ for everyone</title>
 	<meta
 		name="description"
-		content="Open source knowledge and hardware for molecular hydrogen: electrolysis, health, safety, and experimentation."
+		content="Open source knowledge and hardware for molecular hydrogen: health, safety, and electrolysis experimentation."
 	/>
 </svelte:head>
 
