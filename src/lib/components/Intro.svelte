@@ -35,8 +35,9 @@
 			Why hydrogen, and why make it yourself?
 		</h2>
 		<p class="text-muted-foreground mt-4">
-			Molecular hydrogen is having a moment as a health supplement, and the technology behind it is
-			simple enough for anyone to own. openH2 exists to share what works:
+			Molecular hydrogen is having a moment as an educational experiment and as a health supplement.
+			The technology behind it is simple enough for anyone to own. openH2 exists to share what
+			works:
 			<a href="/research" class="link">the science</a>,
 			<a href="/plans-and-parts" class="link">the hardware</a>, and the safety knowledge to do it
 			right.
