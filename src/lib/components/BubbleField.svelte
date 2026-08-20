@@ -17,6 +17,7 @@
 
 	const R_MIN = 0.4;
 	const R_MAX = 2.4;
+	const BUCKETS = 12;
 
 	let canvas: HTMLCanvasElement | undefined = $state();
 
@@ -67,14 +68,28 @@
 		const draw = (t: number) => {
 			ctx.clearRect(0, 0, w, h);
 			ctx.fillStyle = color;
+
+			// Thousands of individual fills would be the bottleneck, so bubbles are
+			// collected into a few opacity buckets and each bucket fills as one path.
+			// Quantizing opacity this finely is invisible on translucent specks.
+			const paths: Path2D[] = [];
+			for (let i = 0; i < BUCKETS; i++) paths.push(new Path2D());
+
 			for (const b of bubbles) {
 				const x =
 					b.x + Math.sin(t * b.freq + b.phase) * b.amp + Math.sin(t * b.freq2 + b.phase2) * b.amp2;
 				const fade = Math.max(0, Math.min(1, b.y / (h * 0.18), (h - b.y) / (h * 0.08)));
-				ctx.globalAlpha = b.alpha * fade;
-				ctx.beginPath();
-				ctx.arc(x, b.y, b.r, 0, TAU);
-				ctx.fill();
+				const a = b.alpha * fade;
+				if (a <= 0) continue;
+				const bucket = Math.min(BUCKETS - 1, (a * BUCKETS) | 0);
+				const p = paths[bucket];
+				p.moveTo(x + b.r, b.y);
+				p.arc(x, b.y, b.r, 0, TAU);
+			}
+
+			for (let i = 0; i < BUCKETS; i++) {
+				ctx.globalAlpha = (i + 0.5) / BUCKETS;
+				ctx.fill(paths[i]);
 			}
 			ctx.globalAlpha = 1;
 		};
@@ -117,7 +132,7 @@
 			el.style.width = `${w}px`;
 			el.style.height = `${h}px`;
 			ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-			const count = Math.min(700, Math.max(90, Math.round((w * h) / 2600)));
+			const count = Math.min(2100, Math.max(270, Math.round((w * h) / 870)));
 			bubbles = Array.from({ length: count }, () => spawn(rand(0, h)));
 			if (motion.matches || !raf) {
 				stop();
