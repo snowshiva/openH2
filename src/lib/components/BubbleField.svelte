@@ -9,8 +9,14 @@
 		amp: number;
 		freq: number;
 		phase: number;
+		amp2: number;
+		freq2: number;
+		phase2: number;
 		alpha: number;
 	};
+
+	const R_MIN = 0.4;
+	const R_MAX = 2.4;
 
 	let canvas: HTMLCanvasElement | undefined = $state();
 
@@ -36,18 +42,25 @@
 		};
 
 		const spawn = (y: number): Bubble => {
-			const r = rand(0.6, 2.6);
+			// Biased toward the small end, so the field is mostly fine fizz with a
+			// scattering of larger bubbles through it.
+			const r = R_MIN + (R_MAX - R_MIN) * Math.pow(Math.random(), 2.2);
 			return {
 				x: rand(0, w),
 				y,
 				r,
 				// Buoyancy: rise speed goes with the square of the radius, so the big
-				// bubbles cross in ~7s while the small dim ones drift for ~30s.
-				v: 20 + r * r * 13,
-				amp: rand(1, 9),
-				freq: rand(0.4, 1.4),
+				// bubbles cross in ~7s while the fine ones drift up for ~20s.
+				v: 34 + r * r * 15,
+				// Two incommensurate sways sum into a wandering path that never
+				// visibly repeats.
+				amp: rand(2, 11),
+				freq: rand(0.5, 1.5),
 				phase: rand(0, TAU),
-				alpha: 0.18 + (r / 2.6) * 0.6
+				amp2: rand(3, 16),
+				freq2: rand(0.1, 0.4),
+				phase2: rand(0, TAU),
+				alpha: 0.12 + (r / R_MAX) * 0.55
 			};
 		};
 
@@ -55,7 +68,8 @@
 			ctx.clearRect(0, 0, w, h);
 			ctx.fillStyle = color;
 			for (const b of bubbles) {
-				const x = b.x + Math.sin(t * b.freq + b.phase) * b.amp;
+				const x =
+					b.x + Math.sin(t * b.freq + b.phase) * b.amp + Math.sin(t * b.freq2 + b.phase2) * b.amp2;
 				const fade = Math.max(0, Math.min(1, b.y / (h * 0.18), (h - b.y) / (h * 0.08)));
 				ctx.globalAlpha = b.alpha * fade;
 				ctx.beginPath();
@@ -103,7 +117,7 @@
 			el.style.width = `${w}px`;
 			el.style.height = `${h}px`;
 			ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-			const count = Math.min(150, Math.max(36, Math.round((w * h) / 12000)));
+			const count = Math.min(700, Math.max(90, Math.round((w * h) / 2600)));
 			bubbles = Array.from({ length: count }, () => spawn(rand(0, h)));
 			if (motion.matches || !raf) {
 				stop();
