@@ -24,7 +24,7 @@
 			icon: 'lucide:shield-check',
 			title: 'Safety and purity matter',
 			body: 'The wrong electrolyte or electrode material can put chlorine gas or other toxic byproducts into the hydrogen you make, and hydrogen itself demands respect as a flammable gas. One rule above all: never drink the water from an electrolyte cell. Hydrogen water is only viable with pure water and a PEM membrane; DIY electrolyte cells are for making gas.',
-			link: { href: '/plans-and-parts', label: 'Build it right' }
+			link: { href: '/safety', label: 'Safety' }
 		}
 	];
 </script>
@@ -39,8 +39,8 @@
 			The technology behind it is simple enough for anyone to own. openH2 exists to share what
 			works:
 			<a href="/research" class="link">the science</a>,
-			<a href="/plans-and-parts" class="link">the hardware</a>, and the safety knowledge to do it
-			right.
+			<a href="/plans-and-parts" class="link">the hardware</a>, and the
+			<a href="/safety" class="link">safety knowledge</a> to do it right.
 		</p>
 	</div>
 	<div class="mt-10 grid gap-4 md:grid-cols-2">

@@ -28,8 +28,8 @@
 				best-established things about it. Reviews of the clinical literature note a near absence of
 				toxicity across every route it has been given, and deep-sea divers have breathed
 				hydrogen-containing gas mixes for decades. The molecule inside your body is not the hazard;
-				the flammable gas around the equipment is, which is why safety engineering is a core part of
-				everything we publish.
+				the flammable gas around the equipment is, which is why
+				<a href="/safety" class="link">safety engineering</a> is a core part of everything we publish.
 			</p>
 		</div>
 

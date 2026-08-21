@@ -2,7 +2,7 @@
 	<title>Plans & Parts | openH2</title>
 	<meta
 		name="description"
-		content="The open source DIY hydrogen generator: design, configurations, power, materials safety, and how to verify your build."
+		content="The open source DIY hydrogen generator: design, cell configurations, dose, and power."
 	/>
 </svelte:head>
 
@@ -17,9 +17,9 @@
 		<p class="text-foreground font-medium">Read before building</p>
 		<p class="text-muted-foreground mt-1">
 			Hydrogen is flammable and sodium hydroxide is caustic. Never use table salt as an electrolyte
-			(it makes chlorine gas), never drink the water from an electrolyte cell, and never build or
-			operate this equipment without reading the full safety documentation that ships with the
-			plans. Everything here is at your own risk; see the
+			(it makes chlorine gas), and never drink the water from an electrolyte cell. Read the
+			<a href="/safety" class="link">full safety documentation</a> before you build or operate any
+			of this. Everything here is at your own risk; see the
 			<a href="/disclaimer" class="link">disclaimer</a>.
 		</p>
 	</div>
@@ -126,61 +126,20 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Materials: the golden combination</h2>
+			<h2 class="text-2xl font-semibold tracking-tight">Materials, purity, and safety</h2>
 			<p class="text-muted-foreground mt-3">
-				Pure nickel electrodes plus 4 percent food-grade sodium hydroxide in distilled water is the
-				validated safe pairing for this design. Deviating from it is how DIY electrolysis goes
-				wrong:
+				Which electrodes and electrolytes are safe, why table salt and stainless anodes are
+				dangerous, how to strip caustic mist out of the breathing stream, and the roughly $40 of
+				gear that lets you prove your own unit is clean before you breathe it: all of that lives on
+				the <a href="/safety" class="link">safety page</a>, which covers the DIY alkaline build and
+				PEM systems separately because their hazards genuinely differ.
 			</p>
-			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
-				<li>
-					<span class="text-foreground font-medium">Never table salt.</span> Salt water electrolysis produces
-					chlorine gas and hypochlorite. This is the most common beginner mistake and the most dangerous
-					one.
-				</li>
-				<li>
-					<span class="text-foreground font-medium">Never stainless steel as the anode.</span>
-					Under anodic polarization in alkali, chromium can leach as hexavalent chromium, which is toxic.
-				</li>
-				<li>
-					<span class="text-foreground font-medium"
-						>Never copper, brass, zinc, galvanized steel, or aluminum</span
-					> anywhere in contact with the electrolyte. They corrode, contaminate, or react outright.
-				</li>
-				<li>
-					<span class="text-foreground font-medium">Verify your nickel is solid nickel.</span>
-					Much of the "nickel strip" sold for battery welding is nickel-plated steel. A strong magnet
-					grabs plated steel hard and pure nickel only weakly.
-				</li>
-			</ul>
 			<p class="text-muted-foreground mt-3">
-				The full electrode and electrolyte danger matrix, with the reasoning for every row, is a
-				flagship part of the published plans.
+				The short version for this build: pure nickel electrodes with 4 percent food-grade sodium
+				hydroxide in distilled water is the validated pairing, and departing from it is how DIY
+				electrolysis goes wrong. Read the
+				<a href="/safety" class="link">full guidance</a> before sourcing anything.
 			</p>
-		</div>
-
-		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Verify your build</h2>
-			<p class="text-muted-foreground mt-3">
-				Every builder can prove their own unit is clean before inhaling anything, with about $40 of
-				gear:
-			</p>
-			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
-				<li>
-					<span class="text-foreground font-medium">Oxygen meter at the outlet.</span> A good bell reads
-					under 1 percent oxygen. Treat 2 to 3 percent as an alarm that separation is degrading.
-				</li>
-				<li>
-					<span class="text-foreground font-medium">pH paper at the mouthpiece.</span>
-					Neutral means clean. Alkaline means caustic mist is getting through and the de-misting train
-					needs attention.
-				</li>
-				<li>
-					<span class="text-foreground font-medium">The flame test.</span> A soft "whump" and a near-invisible
-					pale blue flame is the target. A sharp pop means the gases are mixing (stop and check). An orange
-					flame is sodium, a live visual readout of caustic mist that should not be there.
-				</li>
-			</ul>
 		</div>
 
 		<div>
@@ -189,10 +148,11 @@
 				Proton exchange membrane cells are the upgrade path: sealed solid-state cells running on
 				pure water with no caustic electrolyte, producing separated, high-purity gas that can be
 				pressurized, which also makes real hydrogen water possible. They cost more and demand real
-				electronics (constant-current drive, thermal protection, water management). We are
-				bench-testing PEM hardware now and publishing the results as we go; follow along on the
-				<a href="/research" class="link">Research</a>
-				page.
+				electronics (constant-current drive, thermal protection, water management). Their hazards
+				are different enough from the alkaline build that they get their own section on the
+				<a href="/safety" class="link">safety page</a>: driving a PEM cell the way you drive this
+				one destroys it. We are bench-testing PEM hardware now and publishing the results as we go;
+				follow along on the <a href="/research" class="link">Research</a> page.
 			</p>
 		</div>
 
@@ -200,8 +160,8 @@
 			<h2 class="text-2xl font-semibold tracking-tight">Status</h2>
 			<p class="text-muted-foreground mt-3">
 				The complete bill of materials and step-by-step build instructions are being prepared for
-				publication, with the safety documentation as the publishing gate. Prefer not to source
-				everything yourself? See
+				publication, with the <a href="/safety" class="link">safety documentation</a> as the
+				publishing gate. Prefer not to source everything yourself? See
 				<a href="/plans-and-parts/kits" class="link">Kits</a>
 				and
 				<a href="/plans-and-parts/prebuilt-machines" class="link">Prebuilt Machines</a>.

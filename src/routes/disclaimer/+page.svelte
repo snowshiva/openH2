@@ -47,7 +47,8 @@
 				flammable gas, and chemical processes. Hydrogen is highly flammable. By choosing to build,
 				modify, or operate anything described on this site, you acknowledge these risks and
 				voluntarily assume full responsibility for them. Work carefully, verify your materials,
-				ventilate your workspace, keep ignition sources away, and comply with all laws and codes
+				ventilate your workspace, keep ignition sources away, follow the
+				<a href="/safety" class="link">safety documentation</a>, and comply with all laws and codes
 				that apply where you live. To the fullest extent permitted by law, openH2.org and its
 				contributors accept no liability for any injury, loss, or damage of any kind arising from
 				the use of information on this site.

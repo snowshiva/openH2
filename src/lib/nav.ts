@@ -12,5 +12,6 @@ export const links: NavLink[] = [
 		]
 	},
 	{ href: '/health-and-h2', label: 'Health & H₂' },
+	{ href: '/safety', label: 'Safety' },
 	{ href: '/about', label: 'About' }
 ];
