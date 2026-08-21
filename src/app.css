@@ -12,7 +12,7 @@
 	--muted: oklch(0.955 0.022 205);
 	--muted-foreground: oklch(0.48 0.03 220);
 	--border: oklch(0.89 0.025 205);
-	--accent: oklch(0.47 0.13 220);
+	--accent: oklch(0.52 0.17 255);
 	--accent-foreground: oklch(0.99 0.005 205);
 
 	/* Vertical rhythm for top-level page sections. Change it here, not per section. */
@@ -27,7 +27,7 @@
 	/* Depth in the water: surface light, a mid pool, and darker deep below. */
 	--water-glow: oklch(0.99 0.035 195);
 	--water-mid: oklch(0.955 0.04 210);
-	--water-deep: oklch(0.93 0.042 215);
+	--water-deep: oklch(0.945 0.036 215);
 }
 
 @media (min-width: 48rem) {
