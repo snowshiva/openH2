@@ -15,9 +15,9 @@
 		<p>
 			The open source plans are free forever, and you can source every part yourself. A kit just
 			saves you the hunting: verified solid nickel electrodes (not nickel-plated steel), food-grade
-			sodium hydroxide, the jar hardware, the full de-misting train including the medical-grade
-			breathing filter, tubing, cannula, and a certified power adapter, plus the printed build guide
-			and the <a href="/safety" class="link">safety documentation</a>.
+			sodium hydroxide, the jar hardware, the bubbler, tubing, cannula, and a certified power
+			adapter, plus the printed build guide and the
+			<a href="/safety" class="link">safety documentation</a>.
 		</p>
 		<p>
 			The materials matter more than they look like they should. The most dangerous DIY mistakes are

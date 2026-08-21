@@ -32,8 +32,8 @@
 				nickel electrodes sit in a 4 percent solution of food-grade sodium hydroxide in distilled
 				water. An inner collection bell, open at the bottom, captures the hydrogen rising off the
 				cathode while oxygen escapes around it and vents separately. The gas then passes through a
-				de-misting train (a water bubbler, a coalescing demister, and a medical-grade hydrophobic
-				breathing filter) before reaching a nasal cannula. It is an inhalation device only.
+				bubbler, which scrubs caustic aerosol out of the stream, before reaching a nasal cannula. It
+				is an inhalation device only.
 			</p>
 		</div>
 

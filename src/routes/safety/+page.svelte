@@ -632,8 +632,8 @@
 					glassware, tubing, or electrodes during assembly, saponify in the caustic solution. You
 					are making a small amount of soap inside your cell, and soap in a vessel with gas bubbling
 					through it means foam. That matters for more than tidiness: foam climbs, and it carries
-					liquid electrolyte up into the gas line, which defeats the de-misting train and puts
-					caustic into the stream you intend to breathe.
+					liquid electrolyte up into the gas line, which defeats the bubbler and puts caustic into
+					the stream you intend to breathe.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					So degrease every wetted part before assembly, handle clean components with gloves, and
@@ -648,8 +648,8 @@
 				<h2 id="diy-cells" class="text-2xl font-semibold tracking-tight">DIY alkaline cells</h2>
 				<p class="text-muted-foreground mt-3">
 					The open source build: a membraneless cell in a mason jar, pure nickel electrodes, 4
-					percent sodium hydroxide in distilled water, an inverted collection bell, and a de-misting
-					train feeding a nasal cannula. Inhalation only.
+					percent sodium hydroxide in distilled water, an inverted collection bell, and a bubbler
+					feeding a nasal cannula. Inhalation only.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
@@ -658,28 +658,37 @@
 				<p class="text-muted-foreground mt-2">
 					Electrolysis can carry a fine sodium hydroxide aerosol along with the gas, and inhaling
 					caustic mist burns the airway. This is the single most important point for an alkaline
-					generator and the easiest one to miss. The de-misting train is mandatory, and every stage
-					is deliberately low resistance so it cannot push back against the open bell:
+					generator and the easiest one to miss. Never breathe from this cell without a bubbler in
+					the line.
 				</p>
-				<ol class="text-muted-foreground mt-2 list-decimal space-y-2 pl-6">
-					<li>
-						A bubbler filled with distilled water, where the gas expands and droplets fall back out.
-						Treat the water as a consumable: it collects caustic over time and a saturated bubbler
-						starts re-aerosolizing what it caught, so change it once it reaches around pH 9 to 10.
-					</li>
-					<li>
-						A coalescing demister, a plug of PTFE or polypropylene mesh in a wide tube. Never glass
-						wool in a breathing line, since it sheds fibers.
-					</li>
-					<li>
-						A medical hydrophobic breathing filter last, which blocks liquid aerosol absolutely and
-						adds bacterial and viral filtration.
-					</li>
-				</ol>
+				<p class="text-muted-foreground mt-2">
+					<span class="text-foreground font-medium">The bubbler is the workhorse.</span> A jar of distilled
+					water with the gas bubbled through it: the stream slows as it enters the wider vessel, and droplets
+					fall back out instead of carrying on down the tube. In our own use this has been enough on its
+					own, and no further filtration stage has been needed. The condition attached to that is not
+					optional, though. The bubbler water accumulates the caustic it strips, and once it turns alkaline
+					enough it starts re-aerosolizing what it caught, which quietly turns your protection into a
+					source. Change it regularly, and use the pH check below to decide when rather than guessing.
+					Around pH 9 to 10 is the point to replace it.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					<span class="text-foreground font-medium">Optional extra stages.</span> If you want more margin
+					than a single bubbler, two further stages can follow it: a coalescing demister, a plug of PTFE
+					or polypropylene mesh in a wide tube where fine droplets collect and drain back, and after that
+					a medical hydrophobic breathing filter, which blocks liquid aerosol absolutely and adds bacterial
+					and viral filtration. Neither is part of the build we actually run, and we would rather say
+					so than imply a filter stack we do not use. They are there for anyone who wants belt and braces,
+					or who is running higher output. If you do fit them, keep that order, with the bubbler first
+					knocking out the bulk so the filter stays dry and low resistance. One material warning: never
+					glass wool in a breathing line, because it sheds fibers.
+				</p>
 				<p class="text-muted-foreground mt-2">
 					Remove aerosol, not humidity. After scrubbing, the gas is fully humidified and that is
-					desirable, since dry gas is harsh on airways. Do not add fine diffuser stones or tall
-					packed columns: their backpressure would push the bell down and vent gas at the rim.
+					desirable, since dry gas is harsh on airways. Whatever you fit, every stage has to be low
+					resistance: no fine diffuser stones, no tall packed columns. Their backpressure would push
+					the bell down and vent gas at the rim, which as the
+					<a href="#browns-gas" class="link">separation section</a> explains is also how you end up mixing
+					your own gases.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
@@ -707,7 +716,8 @@
 					</li>
 					<li>
 						<span class="text-foreground font-medium">pH paper at the mouthpiece.</span> Neutral is clean.
-						Alkaline means caustic mist is getting through and the de-misting train needs work.
+						Alkaline means caustic mist is getting through: change the bubbler water, and consider adding
+						the optional filter stages.
 					</li>
 					<li>
 						<span class="text-foreground font-medium">The flame test.</span> A soft whump with a pale
