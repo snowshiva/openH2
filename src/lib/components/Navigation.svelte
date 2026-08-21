@@ -17,8 +17,8 @@
 
 <header class="border-border bg-background/80 sticky top-0 z-50 border-b backdrop-blur">
 	<nav class="flex w-full items-center justify-between px-4 py-3">
-		<a href="/" class="flex items-center gap-2 text-lg font-semibold tracking-tight">
-			<img src={logo} alt="" class="h-8 w-auto" />
+		<a href="/" class="brand flex items-center gap-2 text-lg font-semibold tracking-tight">
+			<img src={logo} alt="" class="brand-mark h-8 w-auto" />
 			<span>open<span class="text-accent">H₂</span></span>
 		</a>
 		<button
@@ -80,3 +80,26 @@
 		</nav>
 	</aside>
 {/if}
+
+<style>
+	/* A quick full turn of the mark when the wordmark is hovered. Using an
+	   animation rather than a transition means it always spins forward instead
+	   of unwinding backwards when the pointer leaves. */
+	.brand:hover .brand-mark,
+	.brand:focus-visible .brand-mark {
+		animation: brand-spin 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	@keyframes brand-spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.brand:hover .brand-mark,
+		.brand:focus-visible .brand-mark {
+			animation: none;
+		}
+	}
+</style>

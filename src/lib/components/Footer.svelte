@@ -9,7 +9,7 @@
 				{#if i > 0}
 					<span class="text-muted-foreground select-none" aria-hidden="true">|</span>
 				{/if}
-				<a href={link.href} class="link">
+				<a href={link.href} class="link-plain">
 					{link.label}
 				</a>
 			{/each}
@@ -24,9 +24,9 @@
 		<p class="text-muted-foreground mt-3 text-center">
 			© {new Date().getFullYear()} openH2.org
 			<span class="select-none" aria-hidden="true">·</span>
-			<a href="/licensing" class="link">Licensing</a>
+			<a href="/licensing" class="link-plain">Licensing</a>
 			<span class="select-none" aria-hidden="true">·</span>
-			<a href="/disclaimer" class="link">Disclaimer</a>
+			<a href="/disclaimer" class="link-plain">Disclaimer</a>
 		</p>
 	</div>
 </footer>
