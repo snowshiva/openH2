@@ -101,6 +101,17 @@
 	main > section {
 		padding-block: var(--section-py);
 	}
+
+	/* Anchored headings stop below the sticky header instead of behind it. */
+	:is(h2, h3)[id] {
+		scroll-margin-top: 6rem;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		html {
+			scroll-behavior: smooth;
+		}
+	}
 }
 
 @keyframes water-drift {
