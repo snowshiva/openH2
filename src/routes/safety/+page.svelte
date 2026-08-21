@@ -138,6 +138,78 @@
 					accumulate and you are dealing with a fuel, not an explosive.
 				</p>
 
+				<h3 class="text-foreground mt-6 text-lg font-semibold">
+					What separating the gases actually means
+				</h3>
+				<p class="text-muted-foreground mt-2">
+					The two gases are not born mixed. Hydrogen forms only at the cathode and oxygen only at
+					the anode, so at the moment of creation they are already in different places, a centimetre
+					or two apart. Everything after that is a plumbing problem: capture each stream at its own
+					electrode and keep the two paths from ever sharing a space. "Separation" means exactly
+					that, and nothing more exotic.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					Industrial cells do it with a physical barrier. A membrane or diaphragm divides the cell
+					into two compartments, letting ions through to carry the current while blocking gas from
+					crossing. That is what the membrane in a
+					<a href="#pem" class="link">PEM cell</a> does, and it is why PEM systems deliver two clean,
+					fully separated streams.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					Our DIY cell has no membrane. It separates by geometry instead, using the fact that
+					bubbles go straight up. An inverted bell, closed at the top and open at the bottom, sits
+					over the cathode with the cathode coiled up inside it. Every hydrogen bubble that forms
+					rises directly into the bell and is trapped under its closed top, where a fitting in the
+					lid draws it off. The anode sits outside the bell, wrapped around it, so its oxygen rises
+					through the outer part of the jar and vents separately. Two electrodes, two rising columns
+					of bubbles, two destinations that never meet. It is a remarkably simple trick, and on our
+					own hardware it works well: a properly seated bell delivers hydrogen with under 1 percent
+					oxygen in it.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					Being honest about it, geometry is not a barrier. Some oxygen dissolves in the electrolyte
+					and finds its way across, and a bubble knocked sideways can end up on the wrong side.
+					Separation here is very good rather than guaranteed, which is why the design leans on the
+					fuel-rich margin below, and why an oxygen meter is on the
+					<a href="#diy-cells" class="link">verification list</a> rather than being optional.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					<span class="text-foreground font-medium">One consequence worth understanding:</span> the gap
+					at the bottom of the bell is both its pressure relief and its crossover path. Restrict the hydrogen
+					outlet and the gas cannot leave the way it should, so it builds up inside the bell, pushes the
+					liquid level down to the rim, and escapes around the bottom into the oxygen side. You have then
+					made mixed gas inside your own cell by accident. This is the deeper reason the rule against
+					valves, restrictors, and anything that can dead-head the outlet is absolute: backpressure does
+					not just risk a mess, it defeats the separation.
+				</p>
+
+				<h3 class="text-foreground mt-6 text-lg font-semibold">
+					You can skip separation entirely, and that is the danger
+				</h3>
+				<p class="text-muted-foreground mt-2">
+					Nothing forces you to separate. Drop two electrodes in a jar of electrolyte, run a single
+					tube out of the lid, and you have a working electrolyser in ten minutes. It makes gas
+					immediately, it needs no bell, no careful geometry, and no second vent. This is why most
+					beginner videos show exactly that build, and it is genuinely the easiest way to see
+					electrolysis work.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					It is also the one build we tell people not to make. That single tube carries the hydrogen
+					and the oxygen together in perfect ratio, so every bubble collected, every centimetre of
+					tubing, and every container downstream is full of detonating gas rather than fuel. Collect
+					it in a bottle and you have built a bomb. Run it to a flame and flashback can travel back
+					up the line into the whole volume at once, including the cell. The margins that make the
+					separated design forgiving simply do not exist here: there is no fuel-rich buffer, no
+					wrong ratio, nothing to be lucky about.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					Mixed gas does have legitimate uses. Oxyhydrogen torches run on it deliberately, and they
+					survive by never storing any: the gas is consumed at the tip the instant it is made,
+					behind flashback arrestors, by people treating it as the explosive it is. That is a
+					controlled industrial process, not a shortcut for a home build, and none of it applies to
+					a gas you intend to breathe.
+				</p>
+
 				<h3 class="text-foreground mt-6 text-lg font-semibold">What this means for the build</h3>
 				<ul class="text-muted-foreground mt-2 list-disc space-y-2 pl-6">
 					<li>
