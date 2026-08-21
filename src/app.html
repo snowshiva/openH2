@@ -6,12 +6,10 @@
 		<meta name="text-scale" content="scale" />
 		<script>
 			// Set theme before first paint so there's no flash of the wrong theme.
+			// Dark is the default; only an explicit choice switches to light.
 			(() => {
 				const stored = localStorage.getItem('theme');
-				const dark = stored
-					? stored === 'dark'
-					: window.matchMedia('(prefers-color-scheme: dark)').matches;
-				document.documentElement.classList.toggle('dark', dark);
+				document.documentElement.classList.toggle('dark', stored !== 'light');
 			})();
 		</script>
 		%sveltekit.head%

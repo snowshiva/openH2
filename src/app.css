@@ -12,7 +12,7 @@
 	--muted: oklch(0.955 0.022 205);
 	--muted-foreground: oklch(0.48 0.03 220);
 	--border: oklch(0.89 0.025 205);
-	--accent: oklch(0.52 0.13 220);
+	--accent: oklch(0.47 0.13 220);
 	--accent-foreground: oklch(0.99 0.005 205);
 
 	/* Vertical rhythm for top-level page sections. Change it here, not per section. */
@@ -23,6 +23,11 @@
 	   they run at full layer opacity here. */
 	--bubble: #0d6a99;
 	--bubble-opacity: 1;
+
+	/* Depth in the water: surface light, a mid pool, and darker deep below. */
+	--water-glow: oklch(0.99 0.035 195);
+	--water-mid: oklch(0.955 0.04 210);
+	--water-deep: oklch(0.93 0.042 215);
 }
 
 @media (min-width: 48rem) {
@@ -43,6 +48,9 @@
 	--accent-foreground: oklch(0.18 0.035 218);
 	--bubble: #8fdcf0;
 	--bubble-opacity: 0.55;
+	--water-glow: oklch(0.28 0.055 205);
+	--water-mid: oklch(0.23 0.05 215);
+	--water-deep: oklch(0.11 0.03 230);
 }
 
 @theme inline {
@@ -62,11 +70,42 @@
 		color: var(--foreground);
 	}
 
+	/* Water depth behind everything: light from the surface, a mid pool, and
+	   darker water below, drifting slowly so it reads as water rather than a
+	   flat fill. Sits below the bubble canvas, which follows it in the DOM. */
+	body::before {
+		content: '';
+		position: fixed;
+		inset: 0;
+		z-index: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(120% 85% at 18% -10%, var(--water-glow) 0%, transparent 62%),
+			radial-gradient(95% 70% at 88% 8%, var(--water-mid) 0%, transparent 58%),
+			radial-gradient(150% 100% at 50% 118%, var(--water-deep) 0%, transparent 68%);
+		animation: water-drift 72s ease-in-out infinite alternate;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		body::before {
+			animation: none;
+		}
+	}
+
 	/* Every top-level section breathes by default, so no page has to remember to.
 	   A section can still opt out or go bigger with its own py-* utility, since
 	   utilities sit in a later cascade layer than base. */
 	main > section {
 		padding-block: var(--section-py);
+	}
+}
+
+@keyframes water-drift {
+	from {
+		transform: translate3d(-1.5%, -1%, 0) scale(1.08);
+	}
+	to {
+		transform: translate3d(1.5%, 1.5%, 0) scale(1.14);
 	}
 }
 
