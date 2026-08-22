@@ -1,7 +1,9 @@
 <script lang="ts">
+	import Icon from '@iconify/svelte';
 	import SectionNav from '$lib/components/SectionNav.svelte';
 
 	const sections = [
+		{ id: 'key-points', label: 'Read this first' },
 		{ id: 'hydrogen-gas', label: 'Hydrogen gas itself' },
 		{ id: 'browns-gas', label: "Brown's gas" },
 		{ id: 'ventilation', label: 'Gas volume and ventilation' },
@@ -24,7 +26,29 @@
 
 <section class="mx-auto max-w-5xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Safety</h1>
-	<p class="text-muted-foreground mt-4 max-w-2xl text-lg">
+
+	<div class="danger-panel mt-6 max-w-3xl rounded-lg border-2 p-5 md:p-6">
+		<div class="flex items-center gap-3">
+			<Icon icon="lucide:triangle-alert" class="danger-mark h-7 w-7 shrink-0" />
+			<h2 id="key-points" class="danger-mark text-xl font-bold tracking-tight md:text-2xl">
+				Read this first
+			</h2>
+		</div>
+		<ul class="danger-list mt-4 list-disc space-y-3 pl-6 font-semibold md:text-lg">
+			<li>Never experiment with breathing unknown or untested experimental gases.</li>
+			<li>
+				Sodium chloride (table salt) in electrolysis creates poisonous chlorine gas. Never use it.
+			</li>
+			<li>Lye (NaOH soda lye, or KOH potash lye) is caustic and very dangerous.</li>
+			<li>
+				Hydrogen is flammable and explosive. Mixed with oxygen it is EXTREMELY EXPLOSIVE. That
+				mixture carries its own oxygen, so it needs nothing from the air: it will travel up tubes
+				and blow apart sealed containers like a bomb. NEVER store them together.
+			</li>
+		</ul>
+	</div>
+
+	<p class="text-muted-foreground mt-8 max-w-2xl text-lg">
 		Because these designs are open and people build them at home, safety documentation is a core
 		deliverable here, not a disclaimer at the bottom of a page. Every hazard below is written as
 		what it is, why it matters, and what to do about it.
@@ -842,3 +866,20 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.danger-panel {
+		background-color: var(--danger-bg);
+		border-color: var(--danger);
+		color: var(--danger-fg);
+	}
+
+	.danger-mark {
+		color: var(--danger);
+	}
+
+	.danger-list ::marker,
+	.danger-list li::marker {
+		color: var(--danger);
+	}
+</style>

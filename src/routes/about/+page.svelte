@@ -34,12 +34,13 @@
 		</p>
 		<p>Many thanks to @Nighthawkinlight for his excellent content and for inspiring my journey.</p>
 		<p>
-			Though very informative, I quickly learned that stainless steel and a strong base electrolyte like
-			KOH (potassium hydroxide) or NaOH (sodium hydroxide) can cause some major issues in practical use. 
-			For hobby experimentation it's fine, but for an appliance that is used daily, I found some real issues. 
-			Stainless steel breaks down pretty fast, and food safe plastic bottles and water bottles embrittle and 
-			crack very fast. Also, an unexpected danger: stainless steel in strong base electrolytes can create
-			harmful compounds in electrolysislike hexavalent chromium, which is a known carcinogen and can cause severe health issues.
+			Though very informative, I quickly learned that stainless steel and a strong base electrolyte
+			like KOH (potassium hydroxide) or NaOH (sodium hydroxide) can cause some major issues in
+			practical use. For hobby experimentation it's fine, but for an appliance that is used daily, I
+			found some real issues. Stainless steel breaks down pretty fast, and food safe plastic bottles
+			and water bottles embrittle and crack very fast. Also, an unexpected danger: stainless steel
+			in strong base electrolytes can create harmful compounds in electrolysislike hexavalent
+			chromium, which is a known carcinogen and can cause severe health issues.
 		</p>
 		<p>
 			I quit smoking, and I thought the hard part would be the quitting. It wasn't. The healing
@@ -48,12 +49,13 @@
 			powerlessness in that: waiting on your own body and not knowing.
 		</p>
 		<p>
-			Rather than just wait, I decided to do something. I already knew about hydrogen's healing
-			potential from hydrogen tablets, the kind that fizz into a glass of water, but tablets are an
-			expensive and unsustainable way to get a daily therapy. I knew hydrogen could be made by
-			electrolysis, and I wondered whether breathing it could be a better and more affordable route.
-			So I set out to learn everything I could about hydrogen and electrolysis, because if I was
-			going to do this, I was going to do it safely.
+			Rather than just wait, I decided to do something (read I hyperfixated on learning everything
+			about electrolysis and how to safely make breathable hydrogen). I already knew about
+			hydrogen's healing potential from a friend who uses hydrogen tablets, the kind that fizz into
+			a glass of water, but tablets are an expensive and unsustainable way to get a daily therapy. I
+			knew hydrogen could be made by electrolysis, and I wondered whether breathing it could be a
+			better and more affordable route. So I set out to learn everything I could about hydrogen and
+			electrolysis, because if I was going to do this, I was going to do it safely.
 		</p>
 		<p>
 			I threw myself into the research: how to build electrolysis machines, which materials are safe
@@ -75,7 +77,7 @@
 			Somewhere in those weeks the project stopped being only about repairing my lungs. Hydrogen is
 			the first element, the smallest molecule, the most abundant thing in the universe, two-thirds
 			of every drop of water. The more I learned, the more it seemed strange that access to it
-			should run through expensive proprietary machines and overclaiming marketing.
+			should run through expensive proprietary expensive machines.
 		</p>
 		<p>
 			So this is openH2: everything I learned, documented properly and given away. The build plans
