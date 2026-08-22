@@ -709,13 +709,14 @@
 					The cell cannot build pressure, so never make it
 				</h3>
 				<p class="text-muted-foreground mt-2">
-					The collection bell is open at the bottom, so the most pressure it can hold is the few
-					centimeters of liquid it can displace. Block the outlet and the accumulating gas pushes
-					that level down until it uncovers the cathode, at which point electrolysis stops for want
-					of an electrode in contact with the electrolyte. The cell talks itself out of the problem:
-					it stops making gas rather than building pressure. Both of those properties depend on the
-					bell staying open, so never seal or pressurize this cell, and never fit valves or
-					restrictors downstream that could dead-head the line.
+					The collection bell is open at the bottom and the oxygen port is open to atmosphere, so
+					the most pressure it can hold is the few centimeters of liquid it can displace. Block the
+					outlet and the accumulating gas pushes that level down until it uncovers the cathode, at
+					which point electrolysis stops for want of an electrode in contact with the electrolyte.
+					The cell talks itself out of the problem: it stops making gas rather than building
+					pressure. Both of those properties depend on the bell staying open, so never seal or
+					pressurize this cell, and never fit valves or restrictors downstream that could dead-head
+					the line.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
