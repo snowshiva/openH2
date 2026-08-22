@@ -39,7 +39,7 @@
 			practical use. For hobby experimentation it's fine, but for an appliance that is used daily, I
 			found some real issues. Stainless steel breaks down pretty fast, and food safe plastic bottles
 			and water bottles embrittle and crack very fast. Also, an unexpected danger: stainless steel
-			in strong base electrolytes can create harmful compounds in electrolysislike hexavalent
+			in strong base electrolytes can create harmful compounds in electrolysis like hexavalent
 			chromium, which is a known carcinogen and can cause severe health issues.
 		</p>
 		<p>
@@ -59,11 +59,17 @@
 		</p>
 		<p>
 			I threw myself into the research: how to build electrolysis machines, which materials are safe
-			and which quietly poison the gas, different electrolytes, different form factors. I compared
-			the real options for hydrogen therapy, tablets, water machines, and inhalation, and building
-			my own turned out to work better for me than any of them. Version after version, the design
-			got simpler and better. By the sixth version it was good enough that I started using it on
-			myself.
+			and which quietly poison the gas, different electrolytes, different form factors. Two threads
+			in the literature kept pulling me deeper. One is mitochondrial: hydrogen is small enough to
+			reach inside the mitochondria where the most destructive radicals are made, and it appears to
+			switch on the cell's own antioxidant machinery rather than just mopping up. The other is
+			metabolic: hydrogen nudges the same fat-burning signals that fasting does, which makes
+			ketogenesis come easier. A lot of that work is still animal work, and I say so plainly on the
+			<a href="/research" class="link">research page</a>, but it was enough to make me want to try
+			it properly. I compared the real options for hydrogen therapy, tablets, water machines, and
+			inhalation, and building my own turned out to work better for me than any of them. Version
+			after version, the design got simpler and better. By the sixth version it was good enough that
+			I started using it on myself.
 		</p>
 		<p>
 			The first days were not what I expected. For three days I felt worse: unexplainably tired,
