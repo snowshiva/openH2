@@ -261,14 +261,6 @@
 						separation failed.
 					</li>
 				</ul>
-				<p class="text-muted-foreground mt-3">
-					A note on the commercial version, since you will encounter it: some inhalation machines on
-					the market deliver the unseparated two-to-one mixture, and their safety argument rests on
-					producing tiny quantities consumed immediately, with flashback arrestors in the line. That
-					argument is not absurd, because inventory really is the dominant variable. I separate
-					anyway. The oxygen contributes nothing therapeutically, and a confined stoichiometric
-					mixture is the one failure mode in this whole project with no soft landing.
-				</p>
 			</div>
 
 			<div>
