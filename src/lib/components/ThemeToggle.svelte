@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 
+	let { onToggle }: { onToggle?: () => void } = $props();
+
 	let dark = $state(false);
 
 	$effect(() => {
@@ -11,6 +13,7 @@
 		dark = !dark;
 		document.documentElement.classList.toggle('dark', dark);
 		localStorage.setItem('theme', dark ? 'dark' : 'light');
+		onToggle?.();
 	}
 </script>
 

@@ -34,6 +34,14 @@
 		</p>
 		<p>Many thanks to @Nighthawkinlight for his excellent content and for inspiring my journey.</p>
 		<p>
+			Though very informative, I quickly learned that stainless steel and a strong base electrolyte like
+			KOH (potassium hydroxide) or NaOH (sodium hydroxide) can cause some major issues in practical use. 
+			For hobby experimentation it's fine, but for an appliance that is used daily, I found some real issues. 
+			Stainless steel breaks down pretty fast, and food safe plastic bottles and water bottles embrittle and 
+			crack very fast. Also, an unexpected danger: stainless steel in strong base electrolytes can create
+			harmful compounds in electrolysislike hexavalent chromium, which is a known carcinogen and can cause severe health issues.
+		</p>
+		<p>
 			I quit smoking, and I thought the hard part would be the quitting. It wasn't. The healing
 			turned out to be slow and painful. My lungs hurt, I didn't know how much damage I had done,
 			and I didn't know whether it would ever fully heal. There is a particular kind of

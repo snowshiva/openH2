@@ -51,7 +51,7 @@
 			>
 				<Icon icon="lucide:x" class="h-5 w-5" />
 			</button>
-			<ThemeToggle />
+			<ThemeToggle onToggle={close} />
 		</div>
 		<nav class="flex flex-col gap-1 p-4">
 			{#each links as link (link.href)}
