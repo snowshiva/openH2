@@ -672,15 +672,13 @@
 					Around pH 9 to 10 is the point to replace it.
 				</p>
 				<p class="text-muted-foreground mt-2">
-					<span class="text-foreground font-medium">Optional extra stages.</span> If you want more margin
-					than a single bubbler, two further stages can follow it: a coalescing demister, a plug of PTFE
-					or polypropylene mesh in a wide tube where fine droplets collect and drain back, and after that
-					a medical hydrophobic breathing filter, which blocks liquid aerosol absolutely and adds bacterial
-					and viral filtration. Neither is part of the build we actually run, and we would rather say
-					so than imply a filter stack we do not use. They are there for anyone who wants belt and braces,
-					or who is running higher output. If you do fit them, keep that order, with the bubbler first
-					knocking out the bulk so the filter stays dry and low resistance. One material warning: never
-					glass wool in a breathing line, because it sheds fibers.
+					<span class="text-foreground font-medium">Optional extra stages.</span> Here are two more stages
+					you can add if you want to be more thorough, though we have not tested them ourselves: a coalescing
+					demister, a plug of PTFE or polypropylene mesh in a wide tube where fine droplets collect and
+					drain back, and after that a medical hydrophobic breathing filter, which blocks liquid aerosol
+					absolutely and adds bacterial and viral filtration. If you do fit them, keep that order, with
+					the bubbler first knocking out the bulk so the filter stays dry and low resistance. One material
+					warning: never glass wool in a breathing line, because it sheds fibers.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					Remove aerosol, not humidity. After scrubbing, the gas is fully humidified and that is
