@@ -77,12 +77,13 @@
 			sixth version it was good enough that I started hydrogen therapy myself.
 		</p>
 		<p>
-			The first days were not what I expected. For three days I felt worse: unexplainably tired,
-			sleeping far more than usual. On the fourth day it turned, and I started feeling much better.
-			On the fifth day I felt a mild euphoria, and meditation, which usually takes effort, came
-			easily. I have practiced natural medicine most of my adult life, and I recognized the pattern
-			of feeling worse before better. That experience is mine alone. It is a story, not a study, and
-			I present it as exactly that. But it is why this project exists.
+			I started slowly: 30 minutes a day at roughly 0.5 percent hydrogen, which is about what a
+			single DIY cell delivers. The first days were not what I expected. For three days I felt
+			worse: unexplainably tired, sleeping far more than usual. On the fourth day it turned, and I
+			started feeling much better. On the fifth day I felt a mild euphoria, and meditation, which
+			usually takes effort, came easily. I have practiced natural medicine most of my adult life,
+			and I recognized the pattern of feeling worse before better. That experience is mine alone. It
+			is a story, not a study, and I present it as exactly that. But it is why this project exists.
 		</p>
 		<p>
 			Somewhere in those weeks the project stopped being only about repairing my lungs. Hydrogen is
