@@ -18,7 +18,7 @@
 	<title>Safety | openH2</title>
 	<meta
 		name="description"
-		content="Hydrogen safety: Brown's gas and why we separate the gases, ventilation, electrolytes, electrodes, lye handling, and the hazards specific to DIY alkaline cells and PEM systems."
+		content="Hydrogen safety: Brown's gas and why I separate the gases, ventilation, electrolytes, electrodes, lye handling, and the hazards specific to DIY alkaline cells and PEM systems."
 	/>
 </svelte:head>
 
@@ -79,7 +79,7 @@
 
 			<div>
 				<h2 id="browns-gas" class="text-2xl font-semibold tracking-tight">
-					Brown's gas, and why we separate the gases
+					Brown's gas, and why I separate the gases
 				</h2>
 				<p class="text-muted-foreground mt-3">
 					Split water and you get hydrogen and oxygen in exactly two-to-one proportion, because that
@@ -156,13 +156,13 @@
 					fully separated streams.
 				</p>
 				<p class="text-muted-foreground mt-2">
-					Our DIY cell has no membrane. It separates by geometry instead, using the fact that
-					bubbles go straight up. An inverted bell, closed at the top and open at the bottom, sits
-					over the cathode with the cathode coiled up inside it. Every hydrogen bubble that forms
-					rises directly into the bell and is trapped under its closed top, where a fitting in the
-					lid draws it off. The anode sits outside the bell, wrapped around it, so its oxygen rises
+					My DIY cell has no membrane. It separates by geometry instead, using the fact that bubbles
+					go straight up. An inverted bell, closed at the top and open at the bottom, sits over the
+					cathode with the cathode coiled up inside it. Every hydrogen bubble that forms rises
+					directly into the bell and is trapped under its closed top, where a fitting in the lid
+					draws it off. The anode sits outside the bell, wrapped around it, so its oxygen rises
 					through the outer part of the jar and vents separately. Two electrodes, two rising columns
-					of bubbles, two destinations that never meet. It is a remarkably simple trick, and on our
+					of bubbles, two destinations that never meet. It is a remarkably simple trick, and on my
 					own hardware it works well: a properly seated bell delivers hydrogen with under 1 percent
 					oxygen in it.
 				</p>
@@ -194,7 +194,7 @@
 					electrolysis work.
 				</p>
 				<p class="text-muted-foreground mt-2">
-					It is also the one build we tell people not to make. That single tube carries the hydrogen
+					It is also the one build I tell people not to make. That single tube carries the hydrogen
 					and the oxygen together in perfect ratio, so every bubble collected, every centimetre of
 					tubing, and every container downstream is full of detonating gas rather than fuel. Collect
 					it in a bottle and you have built a bomb. Run it to a flame and flashback can travel back
@@ -224,11 +224,11 @@
 						Risk scales with how much mixed gas exists at once and whether it is confined.
 					</li>
 					<li>
-						<span class="text-foreground font-medium">Keep the stream fuel-rich.</span> Our collected
-						hydrogen is nearly pure, and a fuel-rich mixture is its own protection: it takes roughly 6
-						percent oxygen contamination before the collected gas can carry a flame at all. A well-seated
-						bell runs under 1 percent. That is a wide margin, and it is the margin you verify with an
-						oxygen meter.
+						<span class="text-foreground font-medium">Keep the stream fuel-rich.</span> My collected hydrogen
+						is nearly pure, and a fuel-rich mixture is its own protection: it takes roughly 6 percent
+						oxygen contamination before the collected gas can carry a flame at all. A well-seated bell
+						runs under 1 percent. That is a wide margin, and it is the margin you verify with an oxygen
+						meter.
 					</li>
 					<li>
 						<span class="text-foreground font-medium">Learn the sound.</span> Igniting a small test sample
@@ -241,7 +241,7 @@
 					A note on the commercial version, since you will encounter it: some inhalation machines on
 					the market deliver the unseparated two-to-one mixture, and their safety argument rests on
 					producing tiny quantities consumed immediately, with flashback arrestors in the line. That
-					argument is not absurd, because inventory really is the dominant variable. We separate
+					argument is not absurd, because inventory really is the dominant variable. I separate
 					anyway. The oxygen contributes nothing therapeutically, and a confined stoichiometric
 					mixture is the one failure mode in this whole project with no soft landing.
 				</p>
@@ -367,7 +367,7 @@
 						<tbody class="text-muted-foreground">
 							<tr class="border-border border-b">
 								<td class="py-2 pr-4">Sodium hydroxide, 4% in distilled water</td>
-								<td class="text-foreground py-2 pr-4 font-medium">Our standard</td>
+								<td class="text-foreground py-2 pr-4 font-medium">My standard</td>
 								<td class="py-2">
 									Efficient alkaline conduction and clean gas with nickel electrodes. Use food-grade
 									(E524), whose low heavy metal and chloride limits keep contaminants out of
@@ -450,9 +450,9 @@
 						<tbody class="text-muted-foreground">
 							<tr class="border-border border-b">
 								<td class="py-2 pr-4">Pure nickel (99.6%, Ni200)</td>
-								<td class="text-foreground py-2 pr-4 font-medium">Our standard</td>
+								<td class="text-foreground py-2 pr-4 font-medium">My standard</td>
 								<td class="py-2">
-									The established alkaline electrode. Stable in hydroxide, and validated on our own
+									The established alkaline electrode. Stable in hydroxide, and validated on my own
 									hardware over weeks of running with the electrolyte staying water-clear.
 								</td>
 							</tr>
@@ -664,7 +664,7 @@
 				<p class="text-muted-foreground mt-2">
 					<span class="text-foreground font-medium">The bubbler is the workhorse.</span> A jar of distilled
 					water with the gas bubbled through it: the stream slows as it enters the wider vessel, and droplets
-					fall back out instead of carrying on down the tube. In our own use this has been enough on its
+					fall back out instead of carrying on down the tube. In my own use this has been enough on its
 					own, and no further filtration stage has been needed. The condition attached to that is not
 					optional, though. The bubbler water accumulates the caustic it strips, and once it turns alkaline
 					enough it starts re-aerosolizing what it caught, which quietly turns your protection into a
@@ -673,12 +673,12 @@
 				</p>
 				<p class="text-muted-foreground mt-2">
 					<span class="text-foreground font-medium">Optional extra stages.</span> Here are two more stages
-					you can add if you want to be more thorough, though we have not tested them ourselves: a coalescing
+					you can add if you want to be more thorough, though I have not tested them myself: a coalescing
 					demister, a plug of PTFE or polypropylene mesh in a wide tube where fine droplets collect and
 					drain back, and after that a medical hydrophobic breathing filter, which blocks liquid aerosol
 					absolutely and adds bacterial and viral filtration. If you do fit them, keep that order, with
 					the bubbler first knocking out the bulk so the filter stays dry and low resistance. One material
-					warning: never glass wool in a breathing line, because it sheds fibers.
+					warning: never use glass wool in a breathing line, because it sheds fibers.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					Remove aerosol, not humidity. After scrubbing, the gas is fully humidified and that is
@@ -746,7 +746,7 @@
 				</h3>
 				<p class="text-muted-foreground mt-2">
 					A PEM cell behaves like a diode. Below roughly 1.5 volts almost nothing flows, and then
-					current rises nearly vertically with tiny increases in voltage. On our own bench cell the
+					current rises nearly vertically with tiny increases in voltage. On my own bench cell the
 					slope worked out to about 26 amps per 100 millivolts. Put a 5 volt USB source across it
 					and it will try to draw hundreds of watts through a few square centimetres of membrane
 					until something gives.
@@ -761,7 +761,7 @@
 				</p>
 				<p class="text-muted-foreground mt-2">
 					A hard voltage ceiling just above normal operating voltage is cheap, passive protection
-					that does not depend on firmware. On our bench a 3.5 volt compliance ceiling limited a
+					that does not depend on firmware. On my bench a 3.5 volt compliance ceiling limited a
 					reverse-connected cell to 1.8 amps instead of 5.09, cutting the damage roughly threefold.
 				</p>
 
@@ -829,7 +829,7 @@
 				<h2 id="status" class="text-2xl font-semibold tracking-tight">Status of this document</h2>
 				<p class="text-muted-foreground mt-3">
 					This is working safety documentation from an active project, and it is honest about where
-					it stands. The materials guidance is validated on our own hardware but has not yet had a
+					it stands. The materials guidance is validated on my own hardware but has not yet had a
 					formal qualified review covering chemical, gas, and electrical safety, and the PEM section
 					describes a system still in bench testing. The lye first-aid guidance follows standard
 					chemical safety practice and is not a substitute for the safety data sheet that comes with

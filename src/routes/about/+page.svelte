@@ -51,7 +51,7 @@
 			are open source. The <a href="/safety" class="link">safety knowledge</a>, which materials,
 			which electrolytes, what can go wrong and how to verify your own build, is published with the
 			same care as the designs, because people will actually build these. The research is graded
-			honestly, including where the evidence is thin. This is why we document: so the path is easier
+			honestly, including where the evidence is thin. This is why I document: so the path is easier
 			for the next person than it was for me.
 		</p>
 	</div>

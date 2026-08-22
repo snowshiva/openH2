@@ -151,7 +151,7 @@
 				electronics (constant-current drive, thermal protection, water management). Their hazards
 				are different enough from the alkaline build that they get their own section on the
 				<a href="/safety" class="link">safety page</a>: driving a PEM cell the way you drive this
-				one destroys it. We are bench-testing PEM hardware now and publishing the results as we go;
+				one destroys it. I am bench-testing PEM hardware now and publishing the results as I go;
 				follow along on the <a href="/research" class="link">Research</a> page.
 			</p>
 		</div>

@@ -29,7 +29,7 @@
 				toxicity across every route it has been given, and deep-sea divers have breathed
 				hydrogen-containing gas mixes for decades. The molecule inside your body is not the hazard;
 				the flammable gas around the equipment is, which is why
-				<a href="/safety" class="link">safety engineering</a> is a core part of everything we publish.
+				<a href="/safety" class="link">safety engineering</a> is a core part of everything I publish.
 			</p>
 		</div>
 
@@ -42,7 +42,7 @@
 				Ordinary antioxidant supplements cannot make that distinction. And because hydrogen is so
 				small, it goes where the damage happens: through cell membranes, across the blood-brain
 				barrier, and into mitochondria themselves. The deeper mechanism is still debated in the
-				literature, and we cover that honestly on the <a href="/research" class="link">Research</a>
+				literature, and I cover that honestly on the <a href="/research" class="link">Research</a>
 				page.
 			</p>
 		</div>
@@ -64,7 +64,7 @@
 				<li>
 					<span class="text-foreground font-medium">Topical and local.</span> Baths, wraps, and experimental
 					applicators that deliver hydrogen directly to skin or eyes. An emerging area with interesting
-					early data and large unknowns; we track it in the research notes.
+					early data and large unknowns; I track it in the research notes.
 				</li>
 			</ul>
 			<p class="text-muted-foreground mt-3">
@@ -96,11 +96,11 @@
 			<h2 class="text-2xl font-semibold tracking-tight">The hype problem</h2>
 			<p class="text-muted-foreground mt-3">
 				Hydrogen is marketed as a cure for nearly everything, usually by people selling a machine.
-				That does real damage to a genuinely promising field. Our position: hydrogen has a
-				remarkable safety profile, a real and unusual mechanism, encouraging human data in specific
-				areas, and a lot of open questions. We will not tell you it cures disease. We will show you
-				the evidence, the doses the studies actually used, and how to generate hydrogen safely and
-				affordably if you decide, with your doctor, that it is worth trying.
+				That does real damage to a genuinely promising field. My position: hydrogen has a remarkable
+				safety profile, a real and unusual mechanism, encouraging human data in specific areas, and
+				a lot of open questions. I will not tell you it cures disease. I will show you the evidence,
+				the doses the studies actually used, and how to generate hydrogen safely and affordably if
+				you decide, with your doctor, that it is worth trying.
 			</p>
 		</div>
 	</div>

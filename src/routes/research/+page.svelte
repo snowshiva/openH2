@@ -9,20 +9,20 @@
 <section class="mx-auto max-w-3xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Research</h1>
 	<p class="text-muted-foreground mt-4 text-lg">
-		Hydrogen therapy attracts hype. Our rule is simple: every claim gets matched to published
+		Hydrogen therapy attracts hype. My rule is simple: every claim gets matched to published
 		research, every number gets measured on real hardware, and uncertainty gets stated plainly,
-		including when it cuts against us.
+		including when it cuts against me.
 	</p>
 
 	<div class="mt-12 space-y-12">
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">How we handle evidence</h2>
+			<h2 class="text-2xl font-semibold tracking-tight">How I handle evidence</h2>
 			<p class="text-muted-foreground mt-3">
-				Every study we cite gets labeled by what it actually is: a human randomized trial, a small
+				Every study I cite gets labeled by what it actually is: a human randomized trial, a small
 				human pilot, or animal and preclinical work. Most mechanistic hydrogen research is
 				preclinical, and a large share of the exciting results have never been replicated in people.
-				We say so. Where our own measurements are estimates rather than measurements, we mark them
-				as estimates.
+				I say so. Where my own measurements are estimates rather than measurements, I mark them as
+				estimates.
 			</p>
 		</div>
 
@@ -43,10 +43,10 @@
 				system, which upregulates the body's own protective enzymes.
 			</p>
 			<p class="text-muted-foreground mt-3">
-				An honest caveat we keep front and center: the exact mechanism is still actively debated.
+				An honest caveat I keep front and center: the exact mechanism is still actively debated.
 				Some researchers argue direct radical scavenging is too slow at physiological concentrations
-				to explain the observed effects, pointing instead to signaling pathways. We lead with
-				effects observed and hedge on why.
+				to explain the observed effects, pointing instead to signaling pathways. I lead with effects
+				observed and hedge on why.
 			</p>
 		</div>
 
@@ -82,13 +82,12 @@
 				Dosimetry: how much hydrogen you actually get
 			</h2>
 			<p class="text-muted-foreground mt-3">
-				This is the question most sellers skip, so we did the math and then verified it on the
-				bench. Electrolysis output follows Faraday's law: roughly 7.6 mL of hydrogen per minute for
-				every amp of current, per cell. A single DIY cell at 3 amps makes about 23 mL per minute.
-				Divide that by how much air you breathe and a single cell delivers a sustained inspired
+				This is the question most sellers skip, so I did the math and then verified it on the bench.
+				Electrolysis output follows Faraday's law: roughly 7.6 mL of hydrogen per minute for every
+				amp of current, per cell. A single DIY cell at 3 amps makes about 23 mL per minute. Divide
+				that by how much air you breathe and a single cell delivers a sustained inspired
 				concentration of roughly 0.4 to 1 percent, depending on how you breathe. Clinical studies
-				typically use 1 to 4 percent, so one cell is a gentle, low-dose device and we say so
-				plainly.
+				typically use 1 to 4 percent, so one cell is a gentle, low-dose device and I say so plainly.
 			</p>
 			<p class="text-muted-foreground mt-3">
 				The useful corollary: you cannot inhale more hydrogen than you make. Output scales with

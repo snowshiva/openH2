@@ -6,7 +6,7 @@
 			href: '/research',
 			icon: 'lucide:microscope',
 			title: 'Research',
-			body: 'Studies, findings, and running notes on molecular hydrogen: what the science says, what is still open, and what we are testing on the bench.'
+			body: 'Studies, findings, and running notes on molecular hydrogen: what the science says, what is still open, and what I am testing on the bench.'
 		},
 		{
 			href: '/plans-and-parts',

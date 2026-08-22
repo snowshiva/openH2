@@ -26,7 +26,7 @@
 		<div>
 			<h2 class="text-foreground text-xl font-semibold">No professional relationship</h2>
 			<p class="mt-2">
-				Using this site, reading its content, or contacting us does not create a doctor-patient,
+				Using this site, reading its content, or contacting me does not create a doctor-patient,
 				professional, or advisory relationship of any kind.
 			</p>
 		</div>
@@ -58,8 +58,8 @@
 		<div>
 			<h2 class="text-foreground text-xl font-semibold">No warranty</h2>
 			<p class="mt-2">
-				Content is provided as is, without warranty of any kind, express or implied. We work to keep
-				information accurate and current, but we make no guarantee of accuracy, completeness, or
+				Content is provided as is, without warranty of any kind, express or implied. I work to keep
+				information accurate and current, but I make no guarantee of accuracy, completeness, or
 				fitness for any particular purpose.
 			</p>
 		</div>
@@ -67,7 +67,7 @@
 		<div>
 			<h2 class="text-foreground text-xl font-semibold">External links</h2>
 			<p class="mt-2">
-				Links to other websites are provided for convenience. They are not endorsements, and we are
+				Links to other websites are provided for convenience. They are not endorsements, and I am
 				not responsible for the content or practices of any third-party site.
 			</p>
 		</div>
