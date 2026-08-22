@@ -2,6 +2,7 @@ export type NavLink = { href: string; label: string; children?: NavLink[] };
 
 export const links: NavLink[] = [
 	{ href: '/', label: 'Home' },
+	{ href: '/about', label: 'About' },
 	{ href: '/research', label: 'Research' },
 	{
 		href: '/plans-and-parts',
@@ -12,6 +13,5 @@ export const links: NavLink[] = [
 		]
 	},
 	{ href: '/health-and-h2', label: 'Health & H₂' },
-	{ href: '/safety', label: 'Safety' },
-	{ href: '/about', label: 'About' }
+	{ href: '/safety', label: 'Safety' }
 ];
