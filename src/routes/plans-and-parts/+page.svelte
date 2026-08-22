@@ -57,9 +57,11 @@
 					an ordinary regulated wall adapter, and aquarium-grade plumbing.
 				</li>
 				<li>
-					<span class="text-foreground font-medium">A clean boundary.</span> This cell makes hydrogen
-					gas for inhalation. Making hydrogen water requires a sealed, pressurizable vessel and pure water,
-					which is PEM territory (see the advanced track below).
+					<span class="text-foreground font-medium">Built for inhalation.</span> Bubbling hydrogen through
+					water does dissolve it, so hydrogen water is not off the table in principle, but at this output
+					it is slow and capped at what water holds at atmospheric pressure. More to the point, gas off
+					an alkaline cell is the wrong source for anything you intend to drink. That job belongs to a
+					PEM system running on pure water (see the advanced track below).
 				</li>
 			</ul>
 		</div>
@@ -148,9 +150,10 @@
 			<p class="text-muted-foreground mt-3">
 				Proton exchange membrane cells are the upgrade path: sealed solid-state cells running on
 				pure water with no caustic electrolyte, producing separated, high-purity gas that can be
-				pressurized, which also makes real hydrogen water possible. They cost more and demand real
-				electronics (constant-current drive, thermal protection, water management). Their hazards
-				are different enough from the alkaline build that they get their own section on the
+				pressurized. Pressure is what makes hydrogen water practical rather than merely possible: it
+				reaches saturation quickly instead of over hours. They cost more and demand real electronics
+				(constant-current drive, thermal protection, water management). Their hazards are different
+				enough from the alkaline build that they get their own section on the
 				<a href="/safety" class="link">safety page</a>: driving a PEM cell the way you drive this
 				one destroys it. I am bench-testing PEM hardware now and publishing the results as I go;
 				follow along on the <a href="/research" class="link">Research</a> page.

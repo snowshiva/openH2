@@ -724,8 +724,7 @@
 					of an electrode in contact with the electrolyte. The cell talks itself out of the problem:
 					it stops making gas rather than building pressure. Both of those properties depend on the
 					bell staying open, so never seal or pressurize this cell, and never fit valves or
-					restrictors downstream that could dead-head the line. It also means this design cannot
-					make hydrogen water, which needs a sealed pressurizable vessel. Keep that boundary clean.
+					restrictors downstream that could dead-head the line.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
