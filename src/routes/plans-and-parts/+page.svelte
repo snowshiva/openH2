@@ -43,8 +43,9 @@
 				<li>
 					<span class="text-foreground font-medium">It physically cannot build pressure.</span>
 					The collection bell is open at the bottom, so the most pressure the cell can ever hold is a
-					few centimeters of water column. Block the output and it simply burps and vents. For a flammable
-					gas, that inherent self-relief is a genuine safety property, not a limitation.
+					few centimeters of water column. Block the output and the gas pushes the liquid level down until
+					the cathode is no longer submerged, and electrolysis simply stops. For a flammable gas, a cell
+					that switches itself off instead of building pressure is a genuine safety property, not a limitation.
 				</li>
 				<li>
 					<span class="text-foreground font-medium">Validated materials.</span> Pure nickel plus food-grade

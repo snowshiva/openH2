@@ -198,13 +198,14 @@
 					<a href="#diy-cells" class="link">verification list</a> rather than being optional.
 				</p>
 				<p class="text-muted-foreground mt-2">
-					<span class="text-foreground font-medium">One consequence worth understanding:</span> the gap
-					at the bottom of the bell is both its pressure relief and its crossover path. Restrict the hydrogen
-					outlet and the gas cannot leave the way it should, so it builds up inside the bell, pushes the
-					liquid level down to the rim, and escapes around the bottom into the oxygen side. You have then
-					made mixed gas inside your own cell by accident. This is the deeper reason the rule against
-					valves, restrictors, and anything that can dead-head the outlet is absolute: backpressure does
-					not just risk a mess, it defeats the separation.
+					<span class="text-foreground font-medium">The geometry protects itself, too.</span> Restrict
+					the hydrogen outlet and the gas cannot leave the way it should, so it accumulates inside the
+					bell and pushes the electrolyte level down. The cathode is in there with it. As the level falls
+					past the electrode, the electrode loses contact with the liquid and electrolysis simply stops,
+					because there is no longer a circuit through the electrolyte to drive it. The cell quits making
+					gas on its own, well before anything dramatic can happen. That interlock is a consequence of
+					putting the electrode inside the bell rather than a feature anyone had to add, and it is a good
+					part of why a blocked line on this design is an annoyance rather than an emergency.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
@@ -718,11 +719,13 @@
 				</h3>
 				<p class="text-muted-foreground mt-2">
 					The collection bell is open at the bottom, so the most pressure it can hold is the few
-					centimeters of liquid it can displace. Past that, gas escapes around the rim and vents.
-					That inherent relief is a real safety property, and it depends entirely on the bell
-					staying open. Never seal or pressurize this cell, and never fit valves or restrictors
-					downstream that could dead-head the line. It also means this design cannot make hydrogen
-					water, which needs a sealed pressurizable vessel. Keep that boundary clean.
+					centimeters of liquid it can displace. Block the outlet and the accumulating gas pushes
+					that level down until it uncovers the cathode, at which point electrolysis stops for want
+					of an electrode in contact with the electrolyte. The cell talks itself out of the problem:
+					it stops making gas rather than building pressure. Both of those properties depend on the
+					bell staying open, so never seal or pressurize this cell, and never fit valves or
+					restrictors downstream that could dead-head the line. It also means this design cannot
+					make hydrogen water, which needs a sealed pressurizable vessel. Keep that boundary clean.
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
