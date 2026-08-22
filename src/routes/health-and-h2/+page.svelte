@@ -21,7 +21,9 @@
 
 	<div class="mt-12 space-y-12">
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">What molecular hydrogen is</h2>
+			<h2 id="what-it-is" class="text-2xl font-semibold tracking-tight">
+				What molecular hydrogen is
+			</h2>
 			<p class="text-muted-foreground mt-3">
 				Molecular hydrogen is the smallest, lightest molecule there is: two hydrogen atoms,
 				electrically neutral, and mostly inert in the body. Its safety profile is one of the
@@ -29,12 +31,15 @@
 				toxicity across every route it has been given, and deep-sea divers have breathed
 				hydrogen-containing gas mixes for decades. The molecule inside your body is not the hazard;
 				the flammable gas around the equipment is, which is why
-				<a href="/safety" class="link">safety engineering</a> is a core part of everything I publish.
+				<a href="/safety#hydrogen-gas" class="link">safety engineering</a> is a core part of everything
+				I publish.
 			</p>
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The selective antioxidant</h2>
+			<h2 id="antioxidant" class="text-2xl font-semibold tracking-tight">
+				The selective antioxidant
+			</h2>
 			<p class="text-muted-foreground mt-3">
 				The landmark finding, published in <em>Nature Medicine</em> in 2007, is that hydrogen is a
 				selective antioxidant. It reduces the hydroxyl radical, the most cytotoxic oxidant your
@@ -42,13 +47,14 @@
 				Ordinary antioxidant supplements cannot make that distinction. And because hydrogen is so
 				small, it goes where the damage happens: through cell membranes, across the blood-brain
 				barrier, and into mitochondria themselves. The deeper mechanism is still debated in the
-				literature, and I cover that honestly on the <a href="/research" class="link">Research</a>
+				literature, and I cover that honestly on the
+				<a href="/research#science" class="link">Research</a>
 				page.
 			</p>
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">How people take it</h2>
+			<h2 id="delivery" class="text-2xl font-semibold tracking-tight">How people take it</h2>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-3 pl-6">
 				<li>
 					<span class="text-foreground font-medium">Hydrogen water.</span> Tablets that fizz into a glass,
@@ -78,7 +84,9 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">What the evidence supports</h2>
+			<h2 id="evidence" class="text-2xl font-semibold tracking-tight">
+				What the evidence supports
+			</h2>
 			<p class="text-muted-foreground mt-3">
 				The strongest human data is in metabolic health (blood lipids and glucose, with multiple
 				trials and a meta-analysis) and exercise recovery (lactate, fatigue, and repeated-sprint
@@ -93,7 +101,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The hype problem</h2>
+			<h2 id="hype" class="text-2xl font-semibold tracking-tight">The hype problem</h2>
 			<p class="text-muted-foreground mt-3">
 				Hydrogen is marketed as a cure for nearly everything, usually by people selling a machine.
 				That does real damage to a genuinely promising field. My position: hydrogen has a remarkable

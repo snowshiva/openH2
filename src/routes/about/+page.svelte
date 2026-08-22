@@ -39,8 +39,10 @@
 			practical use. For hobby experimentation it's fine, but for an appliance that is used daily, I
 			found some real issues. Stainless steel breaks down pretty fast, and food safe plastic bottles
 			and water bottles embrittle and crack very fast. Also, an unexpected danger: stainless steel
-			in strong base electrolytes can create harmful compounds in electrolysis like hexavalent
-			chromium, which is a known carcinogen and can cause severe health issues.
+			in strong base electrolytes can create harmful compounds in electrolysis like <a
+				href="/safety#electrodes"
+				class="link">hexavalent chromium</a
+			>, which is a known carcinogen and can cause severe health issues.
 		</p>
 		<p>
 			I quit smoking, and I thought the hard part would be the quitting. It wasn't. The healing
@@ -65,11 +67,14 @@
 			switch on the cell's own antioxidant machinery rather than just mopping up. The other is
 			metabolic: hydrogen nudges the same fat-burning signals that fasting does, which makes
 			ketogenesis come easier. A lot of that work is still animal work, and I say so plainly on the
-			<a href="/research" class="link">research page</a>, but it was enough to make me want to try
-			it properly. I compared the real options for hydrogen therapy, tablets, water machines, and
-			inhalation, and building my own turned out to work better for me than any of them. Version
-			after version, the design got simpler and better. By the sixth version it was good enough that
-			I started using it on myself.
+			<a href="/research#evidence-ladder" class="link">research page</a>, but it was enough to make
+			me want to try it properly. I compared the real options for hydrogen therapy, tablets, water
+			machines, and inhalation, and building my own turned out to work better for me than any of
+			them. Version after version, the design got simpler and better. Before I breathed any of it I
+			worked out what could go wrong: caustic electrolyte, a flammable gas, and the gases that must
+			never be allowed to mix. All of that became the
+			<a href="/safety" class="link">safety page</a>, and it is the part I would read first. By the
+			sixth version it was good enough that I started hydrogen therapy myself.
 		</p>
 		<p>
 			The first days were not what I expected. For three days I felt worse: unexplainably tired,
@@ -87,9 +92,12 @@
 		</p>
 		<p>
 			So this is openH2: everything I learned, documented properly and given away. The build plans
-			are open source. The <a href="/safety" class="link">safety knowledge</a>, which materials,
-			which electrolytes, what can go wrong and how to verify your own build, is published with the
-			same care as the designs, because people will actually build these. The research is graded
+			are open source. The safety knowledge, which <a href="/safety#electrodes" class="link"
+				>materials</a
+			>, which <a href="/safety#electrolytes" class="link">electrolytes</a>, what can go wrong and
+			how to
+			<a href="/safety#diy-cells" class="link">verify your own build</a>, is published with the same
+			care as the designs, because people will actually build these. The research is graded
 			honestly, including where the evidence is thin. This is why I document: so the path is easier
 			for the next person than it was for me.
 		</p>

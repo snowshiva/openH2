@@ -26,7 +26,7 @@
 
 	<div class="mt-12 space-y-12">
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The design</h2>
+			<h2 id="design" class="text-2xl font-semibold tracking-tight">The design</h2>
 			<p class="text-muted-foreground mt-3">
 				The DIY build is a membraneless alkaline electrolysis cell in a one-pint mason jar. Pure
 				nickel electrodes sit in a 4 percent solution of food-grade sodium hydroxide in distilled
@@ -38,7 +38,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Why this design</h2>
+			<h2 id="why-this-design" class="text-2xl font-semibold tracking-tight">Why this design</h2>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
 				<li>
 					<span class="text-foreground font-medium">It physically cannot build pressure.</span>
@@ -67,7 +67,9 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Configurations and dose</h2>
+			<h2 id="configurations" class="text-2xl font-semibold tracking-tight">
+				Configurations and dose
+			</h2>
 			<p class="text-muted-foreground mt-3">
 				Output follows Faraday's law: about 7.6 mL of hydrogen per minute per amp, per cell. More
 				cells in series means more gas at the same current. Sustained inspired concentration depends
@@ -117,7 +119,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Power</h2>
+			<h2 id="power" class="text-2xl font-semibold tracking-tight">Power</h2>
 			<p class="text-muted-foreground mt-3">
 				The cell is constant-voltage stable: hold a fixed regulated voltage and the current settles
 				on its own and stays put for hours. No constant-current electronics required. A certified,
@@ -129,7 +131,9 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Materials, purity, and safety</h2>
+			<h2 id="materials" class="text-2xl font-semibold tracking-tight">
+				Materials, purity, and safety
+			</h2>
 			<p class="text-muted-foreground mt-3">
 				Which electrodes and electrolytes are safe, why table salt and stainless anodes are
 				dangerous, how to strip caustic mist out of the breathing stream, and the roughly $40 of
@@ -146,7 +150,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The advanced track: PEM</h2>
+			<h2 id="pem" class="text-2xl font-semibold tracking-tight">The advanced track: PEM</h2>
 			<p class="text-muted-foreground mt-3">
 				Proton exchange membrane cells are the upgrade path: sealed solid-state cells running on
 				pure water with no caustic electrolyte, producing separated, high-purity gas that can be
@@ -154,14 +158,14 @@
 				reaches saturation quickly instead of over hours. They cost more and demand real electronics
 				(constant-current drive, thermal protection, water management). Their hazards are different
 				enough from the alkaline build that they get their own section on the
-				<a href="/safety" class="link">safety page</a>: driving a PEM cell the way you drive this
-				one destroys it. I am bench-testing PEM hardware now and publishing the results as I go;
-				follow along on the <a href="/research" class="link">Research</a> page.
+				<a href="/safety#pem" class="link">safety page</a>: driving a PEM cell the way you drive
+				this one destroys it. I am bench-testing PEM hardware now and publishing the results as I
+				go; follow along on the <a href="/research#bench" class="link">Research</a> page.
 			</p>
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">Status</h2>
+			<h2 id="status" class="text-2xl font-semibold tracking-tight">Status</h2>
 			<p class="text-muted-foreground mt-3">
 				The complete bill of materials and step-by-step build instructions are being prepared for
 				publication, with the <a href="/safety" class="link">safety documentation</a> as the

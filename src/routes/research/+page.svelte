@@ -16,7 +16,7 @@
 
 	<div class="mt-12 space-y-12">
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">How I handle evidence</h2>
+			<h2 id="evidence" class="text-2xl font-semibold tracking-tight">How I handle evidence</h2>
 			<p class="text-muted-foreground mt-3">
 				Every study I cite gets labeled by what it actually is: a human randomized trial, a small
 				human pilot, or animal and preclinical work. Most mechanistic hydrogen research is
@@ -27,7 +27,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The foundational science</h2>
+			<h2 id="science" class="text-2xl font-semibold tracking-tight">The foundational science</h2>
 			<p class="text-muted-foreground mt-3">
 				Modern hydrogen medicine starts with Ohsawa and colleagues in <em>Nature Medicine</em>
 				(2007), who showed that molecular hydrogen selectively reduces the hydroxyl radical, the most
@@ -51,7 +51,9 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">The evidence ladder</h2>
+			<h2 id="evidence-ladder" class="text-2xl font-semibold tracking-tight">
+				The evidence ladder
+			</h2>
 			<p class="text-muted-foreground mt-3">Ranked plainly, from strongest to weakest:</p>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
 				<li>
@@ -78,7 +80,7 @@
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">
+			<h2 id="dosimetry" class="text-2xl font-semibold tracking-tight">
 				Dosimetry: how much hydrogen you actually get
 			</h2>
 			<p class="text-muted-foreground mt-3">
@@ -94,12 +96,12 @@
 				current and with the number of cells, not with voltage, so stacking two or three cells in
 				series brings the same design into the clinically studied range. The numbers,
 				configurations, and scaling table live on the
-				<a href="/plans-and-parts" class="link">Plans &amp; Parts</a> page.
+				<a href="/plans-and-parts#configurations" class="link">Plans &amp; Parts</a> page.
 			</p>
 		</div>
 
 		<div>
-			<h2 class="text-2xl font-semibold tracking-tight">From the bench</h2>
+			<h2 id="bench" class="text-2xl font-semibold tracking-tight">From the bench</h2>
 			<p class="text-muted-foreground mt-3">
 				This project keeps a live engineering notebook, and the useful findings get published here
 				as they happen. Recent highlights from the current test campaign on PEM cell hardware:
