@@ -706,7 +706,7 @@
 				</p>
 
 				<h3 class="text-foreground mt-6 text-lg font-semibold">
-					The cell cannot build pressure, so never make it
+					The cell cannot build pressure, by design
 				</h3>
 				<p class="text-muted-foreground mt-2">
 					The collection bell is open at the bottom and the oxygen port is open to atmosphere, so
