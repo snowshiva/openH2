@@ -194,8 +194,7 @@
 					Being honest about it, geometry is not a barrier. Some oxygen dissolves in the electrolyte
 					and finds its way across, and a bubble knocked sideways can end up on the wrong side.
 					Separation here is very good rather than guaranteed, which is why the design leans on the
-					fuel-rich margin below, and why an oxygen meter is on the
-					<a href="#diy-cells" class="link">verification list</a> rather than being optional.
+					fuel-rich margin below.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					<span class="text-foreground font-medium">The geometry protects itself, too.</span> Restrict
