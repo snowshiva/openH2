@@ -11,18 +11,41 @@
 
 	<div class="text-muted-foreground mt-8 space-y-6 text-lg leading-relaxed">
 		<p>
+			I'm Norbu Snow-Shiva, a software engineer and natural medicine enthusiast. I built openH2 to
+			share my journey exploring hydrogen therapy. I am not a medical professional, and this
+			information is not medical advice. I am sharing my personal experience and research to help
+			others explore hydrogen generation in a safe and affordable way.
+		</p>
+		<p>
+			I started my journey devouring videos on YouTube about electrolysis, mainly starting from
+			videos by
+			<a
+				href="https://www.youtube.com/@Nighthawkinlight"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="link">Nighthawkinlight</a
+			>. I started with his video here:
+			<a
+				href="https://www.youtube.com/watch?v=d85OX6yEwE0&t=984s"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="link break-words">https://www.youtube.com/watch?v=d85OX6yEwE0&t=984s</a
+			>
+		</p>
+		<p>Many thanks to @Nighthawkinlight for his excellent content and for inspiring my journey.</p>
+		<p>
 			I quit smoking, and I thought the hard part would be the quitting. It wasn't. The healing
 			turned out to be slow and painful. My lungs hurt, I didn't know how much damage I had done,
 			and I didn't know whether it would ever fully heal. There is a particular kind of
 			powerlessness in that: waiting on your own body and not knowing.
 		</p>
 		<p>
-			Rather than just wait, I decided to do something. I already knew about hydrogen's potential
-			from hydrogen tablets, the kind that fizz into a glass of water, but tablets are an expensive
-			and unsustainable way to get a daily therapy. I knew hydrogen could be made by electrolysis,
-			and I wondered whether breathing it could be a better and more affordable route. So I set out
-			to learn everything I could about hydrogen and electrolysis, because if I was going to do
-			this, I was going to do it safely.
+			Rather than just wait, I decided to do something. I already knew about hydrogen's healing
+			potential from hydrogen tablets, the kind that fizz into a glass of water, but tablets are an
+			expensive and unsustainable way to get a daily therapy. I knew hydrogen could be made by
+			electrolysis, and I wondered whether breathing it could be a better and more affordable route.
+			So I set out to learn everything I could about hydrogen and electrolysis, because if I was
+			going to do this, I was going to do it safely.
 		</p>
 		<p>
 			I threw myself into the research: how to build electrolysis machines, which materials are safe
