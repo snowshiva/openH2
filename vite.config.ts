@@ -13,8 +13,10 @@ export default defineConfig({
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 
-			// Fully prerendered static site — every route is built to HTML (no SPA fallback).
-			adapter: adapter()
+			// Fully prerendered static site: every route is built to HTML. The fallback
+			// is a real 404 page for unmatched paths, not an SPA shell, so prerendered
+			// routes still serve as static HTML.
+			adapter: adapter({ fallback: '404.html' })
 		})
 	]
 });
