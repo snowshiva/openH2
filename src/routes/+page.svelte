@@ -14,11 +14,13 @@
 </svelte:head>
 
 <Hero />
-<Intro />
-<PageHighlights />
 
-<section class="mx-auto max-w-5xl px-4">
+<!-- Sits directly under the hero, so it opts out of the usual section top padding. -->
+<section class="mx-auto max-w-5xl px-4 pt-0">
 	<div class="mx-auto max-w-2xl">
 		<SubscribeForm />
 	</div>
 </section>
+
+<Intro />
+<PageHighlights />
