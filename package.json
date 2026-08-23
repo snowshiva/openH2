@@ -27,7 +27,8 @@
 		"svelte-check": "^4.6.0",
 		"tailwindcss": "^4.3.3",
 		"typescript": "^6.0.3",
-		"vite": "^8.0.16"
+		"vite": "^8.0.16",
+		"wrangler": "4"
 	},
 	"dependencies": {
 		"@iconify/svelte": "^5.2.2",
