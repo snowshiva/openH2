@@ -45,6 +45,19 @@ For local development, copy `.dev.vars.example` to `.dev.vars` and fill in the k
 
 The endpoint validates the address, adds the contact with `updateEnabled`, treats an existing contact as success, and uses a honeypot field to absorb bots. It has no rate limiting of its own; if abuse becomes an issue, add [Turnstile](https://developers.cloudflare.com/turnstile/) or a Cloudflare rate-limiting rule in front of it.
 
+## Branches
+
+Work happens on `dev`. Pushing to `dev` does not deploy.
+
+`main` is the deploy branch: Cloudflare builds and deploys every push to it. Ship by merging:
+
+```sh
+git switch main
+git merge dev
+git push          # this is the deploy
+git switch dev
+```
+
 ## Deploying
 
 Cloudflare builds from git and runs `bun run build`, then `npx wrangler deploy`. `wrangler.jsonc` is committed on purpose: without it, `wrangler deploy` runs an auto-config step that rewrites the build script and fails the deploy.
