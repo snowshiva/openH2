@@ -22,7 +22,7 @@
 	"vars": {
 		// The Brevo list new subscribers are added to. Not a secret.
 		// The API key is a secret: wrangler secret put BREVO_API_KEY
-		"BREVO_LIST_ID": "1"
+		"BREVO_LIST_ID": "8"
 	},
 
 	// Staging worker, deployed from the dev branch with:
@@ -45,7 +45,7 @@
 				"enabled": true
 			},
 			"vars": {
-				"BREVO_LIST_ID": "1"
+				"BREVO_LIST_ID": "8"
 			},
 			"routes": [{ "pattern": "dev.openh2.org", "custom_domain": true }],
 			"workers_dev": true
