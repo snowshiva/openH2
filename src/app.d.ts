@@ -6,7 +6,14 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface PageState {}
-		// interface Platform {}
+		interface Platform {
+			env?: {
+				/** Brevo API key. Set with: wrangler secret put BREVO_API_KEY */
+				BREVO_API_KEY?: string;
+				/** Brevo list id new subscribers are added to. Plain var in wrangler.jsonc. */
+				BREVO_LIST_ID?: string;
+			};
+		}
 	}
 }
 

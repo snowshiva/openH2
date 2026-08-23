@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-cloudflare';
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
@@ -13,10 +13,10 @@ export default defineConfig({
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 
-			// Fully prerendered static site: every route is built to HTML. The fallback
-			// is a real 404 page for unmatched paths, not an SPA shell, so prerendered
-			// routes still serve as static HTML.
-			adapter: adapter({ fallback: '404.html' })
+			// Cloudflare Workers. Every page is still prerendered to static HTML and
+			// served from the assets binding; the Worker exists for the handful of
+			// routes that need a server, currently just the subscribe endpoint.
+			adapter: adapter()
 		})
 	]
 });

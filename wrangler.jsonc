@@ -1,11 +1,21 @@
 {
-	// Cloudflare Workers config — static assets only, no server code.
-	// Cloudflare's git integration reads this to know what to deploy.
+	// Cloudflare Workers config. Committing this is what stops `wrangler deploy`
+	// from running its auto-config and rewriting the build script.
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "openh2",
 	"compatibility_date": "2026-08-23",
+	"compatibility_flags": ["nodejs_compat"],
+	"main": ".svelte-kit/cloudflare/_worker.js",
 	"assets": {
-		"directory": "./build",
-		"not_found_handling": "404-page"
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"vars": {
+		// The Brevo list new subscribers are added to. Not a secret.
+		// The API key is a secret: wrangler secret put BREVO_API_KEY
+		"BREVO_LIST_ID": "1"
 	}
 }
