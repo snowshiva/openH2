@@ -45,11 +45,23 @@ For local development, copy `.dev.vars.example` to `.dev.vars` and fill in the k
 
 The endpoint validates the address, adds the contact with `updateEnabled`, treats an existing contact as success, and uses a honeypot field to absorb bots. It has no rate limiting of its own; if abuse becomes an issue, add [Turnstile](https://developers.cloudflare.com/turnstile/) or a Cloudflare rate-limiting rule in front of it.
 
-## Branches
+## Branches and environments
 
-Work happens on `dev`. Pushing to `dev` does not deploy.
+Two Workers, from two branches:
 
-`main` is the deploy branch: Cloudflare builds and deploys every push to it. Ship by merging:
+| Branch | Worker       | Deploy command                  | Where it lands   |
+| ------ | ------------ | ------------------------------- | ---------------- |
+| `dev`  | `openh2-dev` | `npx wrangler deploy --env dev` | `dev.openh2.org` |
+| `main` | `openh2`     | `npx wrangler deploy`           | `openh2.org`     |
+
+They are separate Workers with separate secrets, so the Brevo key has to be set on each:
+
+```sh
+npx wrangler secret put BREVO_API_KEY            # production
+npx wrangler secret put BREVO_API_KEY --env dev  # staging
+```
+
+Work happens on `dev`. Ship by merging:
 
 ```sh
 git switch main

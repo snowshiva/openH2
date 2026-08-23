@@ -17,5 +17,31 @@
 		// The Brevo list new subscribers are added to. Not a secret.
 		// The API key is a secret: wrangler secret put BREVO_API_KEY
 		"BREVO_LIST_ID": "1"
+	},
+
+	// Staging worker, deployed from the dev branch with:
+	//   wrangler deploy --env dev
+	// It is a separate Worker with its own secrets, so set the key for it too:
+	//   wrangler secret put BREVO_API_KEY --env dev
+	// Once the zone is active, give it dev.openh2.org by adding a custom domain
+	// in the dashboard, or by uncommenting the routes block below.
+	"env": {
+		"dev": {
+			"name": "openh2-dev",
+			"compatibility_date": "2026-08-23",
+			"compatibility_flags": ["nodejs_compat"],
+			"main": ".svelte-kit/cloudflare/_worker.js",
+			"assets": {
+				"binding": "ASSETS",
+				"directory": ".svelte-kit/cloudflare"
+			},
+			"observability": {
+				"enabled": true
+			},
+			"vars": {
+				"BREVO_LIST_ID": "1"
+			}
+			// "routes": [{ "pattern": "dev.openh2.org", "custom_domain": true }]
+		}
 	}
 }
