@@ -13,6 +13,12 @@
 	"observability": {
 		"enabled": true
 	},
+	"routes": [
+		{ "pattern": "openh2.org", "custom_domain": true },
+		{ "pattern": "www.openh2.org", "custom_domain": true }
+	],
+	// Keep the workers.dev hostname alive as a fallback for testing.
+	"workers_dev": true,
 	"vars": {
 		// The Brevo list new subscribers are added to. Not a secret.
 		// The API key is a secret: wrangler secret put BREVO_API_KEY
@@ -40,8 +46,9 @@
 			},
 			"vars": {
 				"BREVO_LIST_ID": "1"
-			}
-			// "routes": [{ "pattern": "dev.openh2.org", "custom_domain": true }]
+			},
+			"routes": [{ "pattern": "dev.openh2.org", "custom_domain": true }],
+			"workers_dev": true
 		}
 	}
 }
