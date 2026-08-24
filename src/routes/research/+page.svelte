@@ -56,10 +56,23 @@
 				<p class="text-muted-foreground mt-2">
 					To estimate actual dosage from a DIY electrolyzer I used the following. Electrolysis
 					output follows Faraday's law: roughly 7.6 mL of hydrogen per minute for every amp of
-					current, per cell. A single DIY cell at 3 amps makes about 23 mL per minute. Divide that
-					by how much air you breathe and a single cell delivers a sustained inspired concentration
-					of roughly 0.4 to 1 percent, depending on how you breathe. Clinical studies typically use
-					1 to 4 percent, so one cell is a gentle, low-dose device.
+					current, per cell. A single DIY cell at 3 amps makes about 23 mL per minute.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					That gas is delivered breathe-by, through a nasal cannula sitting at the nostrils rather
+					than a sealed mask. You are not breathing hydrogen; you are breathing ordinary room air
+					enriched by the hydrogen trickling in. So the concentration you actually inhale is a
+					ratio: hydrogen produced per minute, divided by the volume of air you move per minute.
+				</p>
+				<p class="text-muted-foreground mt-2">
+					For the figures here I use an average adult breath at rest, about half a liter per breath
+					at roughly twelve breaths a minute, so six liters of air per minute. Against that, 23
+					mL/min of hydrogen works out to about 0.4 percent. Breathe slower and shallower, moving
+					three liters a minute, and the same gas concentrates to about 0.8 percent; at a very
+					shallow two and a bit liters a minute it reaches 1 percent. The number therefore depends
+					on inhalation volume, and lung capacity and breathing pattern vary from person to person,
+					so it is a range rather than a fixed dose. Clinical studies typically use 1 to 4 percent,
+					so one cell is a gentle, low-dose device.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					The useful corollary: you cannot inhale more hydrogen than you make. Output scales with
