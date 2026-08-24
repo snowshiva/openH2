@@ -1,5 +1,13 @@
-Copyright (c) 2026 openH2.org. All rights reserved.
+Copyright (c) 2026 openH2.org.
 
-Hardware designs documented on openH2.org (schematics, parts lists, and build
-plans) are licensed under the CERN Open Hardware Licence v2, Weakly Reciprocal.
+Written content published on openH2.org (articles, research notes,
+documentation and other written material) is licensed under Creative Commons
+Attribution-ShareAlike 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+
+Hardware designs (schematics, parts lists, build plans) are licensed under the
+CERN Open Hardware Licence v2, Weakly Reciprocal: https://ohwr.org/cern_ohl_w_v2.txt
+
+The source code in this repository is not covered by either license and all
+rights in it are reserved.
+
 See https://openh2.org/licensing
