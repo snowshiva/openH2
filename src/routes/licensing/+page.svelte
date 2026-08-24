@@ -8,11 +8,8 @@
 
 <section class="mx-auto max-w-3xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Licensing</h1>
-	<p class="text-muted-foreground mt-4">
-		Different kinds of work call for different licenses, so here is exactly what applies to what.
-	</p>
 
-	<div class="mt-10 space-y-10">
+	<div class="mt-8 space-y-10">
 		<div>
 			<h2 class="text-xl font-semibold">Hardware designs: CERN-OHL-W v2</h2>
 			<p class="text-muted-foreground mt-2">
