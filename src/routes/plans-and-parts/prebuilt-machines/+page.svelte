@@ -22,7 +22,7 @@
 		<p>
 			Further out, a premium solid-state PEM machine is in development: pure water, no caustic
 			electrolyte, sealed and pressurizable. Progress is public on the
-			<a href="/research#bench" class="link">Research</a> page.
+			<a href="/research#pem-electrolyzers" class="link">Research</a> page.
 		</p>
 		<p class="text-foreground font-medium">
 			Prebuilt machines are in preparation and not yet for sale.

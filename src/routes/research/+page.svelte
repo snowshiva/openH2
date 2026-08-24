@@ -97,10 +97,11 @@
 		</div>
 
 		<div>
-			<h2 id="bench" class="text-2xl font-semibold tracking-tight">From the bench</h2>
+			<h2 id="pem-electrolyzers" class="text-2xl font-semibold tracking-tight">
+				PEM electrolyzers
+			</h2>
 			<p class="text-muted-foreground mt-3">
-				This project keeps a live engineering notebook, and the useful findings get published here
-				as they happen. Recent highlights from the current test campaign on PEM cell hardware:
+				Recent highlights from the current test campaign on PEM cell hardware:
 			</p>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
 				<li>

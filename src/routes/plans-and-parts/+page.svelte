@@ -160,7 +160,7 @@
 				enough from the alkaline build that they get their own section on the
 				<a href="/safety#pem" class="link">safety page</a>: driving a PEM cell the way you drive
 				this one destroys it. I am bench-testing PEM hardware now and publishing the results as I
-				go; follow along on the <a href="/research#bench" class="link">Research</a> page.
+				go; follow along on the <a href="/research#pem-electrolyzers" class="link">Research</a> page.
 			</p>
 		</div>
 
