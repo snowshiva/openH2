@@ -80,12 +80,12 @@
 				Dosimetry: how much hydrogen you actually get
 			</h2>
 			<p class="text-muted-foreground mt-3">
-				This is the question most sellers skip, so I did the math and then verified it on the bench.
-				Electrolysis output follows Faraday's law: roughly 7.6 mL of hydrogen per minute for every
-				amp of current, per cell. A single DIY cell at 3 amps makes about 23 mL per minute. Divide
-				that by how much air you breathe and a single cell delivers a sustained inspired
-				concentration of roughly 0.4 to 1 percent, depending on how you breathe. Clinical studies
-				typically use 1 to 4 percent, so one cell is a gentle, low-dose device.
+				To estimate actual dosage from a DIY electrolyzer I used the following. Electrolysis output
+				follows Faraday's law: roughly 7.6 mL of hydrogen per minute for every amp of current, per
+				cell. A single DIY cell at 3 amps makes about 23 mL per minute. Divide that by how much air
+				you breathe and a single cell delivers a sustained inspired concentration of roughly 0.4 to
+				1 percent, depending on how you breathe. Clinical studies typically use 1 to 4 percent, so
+				one cell is a gentle, low-dose device.
 			</p>
 			<p class="text-muted-foreground mt-3">
 				The useful corollary: you cannot inhale more hydrogen than you make. Output scales with
