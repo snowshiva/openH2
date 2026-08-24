@@ -51,7 +51,6 @@
 			<h2 id="evidence-ladder" class="text-2xl font-semibold tracking-tight">
 				The evidence ladder
 			</h2>
-			<p class="text-muted-foreground mt-3">Ranked plainly, from strongest to weakest:</p>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
 				<li>
 					<span class="text-foreground font-medium">Strongest human data:</span> metabolic health and
