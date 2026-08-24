@@ -1,21 +1,16 @@
-MIT License
+Copyright (c) 2026 openH2.org. All rights reserved.
 
-Copyright (c) 2026 openH2.org
+This repository contains the source code and written content of the openH2.org
+website. It is published so the work is visible and auditable, not as an
+invitation to reuse it. No permission is granted to copy, modify, redistribute,
+or republish this code or content, in whole or in part, or to deploy another
+site based on it.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The hardware designs documented on openH2.org (schematics, parts lists, and
+build plans) are a separate matter and are open: they are licensed under the
+CERN Open Hardware Licence v2, Weakly Reciprocal. That license covers the
+designs themselves, not this website.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+See https://openh2.org/licensing for the plain-language summary.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+For permission to reuse anything here, ask.

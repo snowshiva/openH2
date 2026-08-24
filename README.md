@@ -76,4 +76,4 @@ Cloudflare builds from git and runs `bun run build`, then `npx wrangler deploy`.
 
 ## Licensing
 
-Website code is MIT licensed (see `LICENSE`). Written site content is CC BY-SA 4.0, and hardware designs are CERN-OHL-W v2; see [openh2.org/licensing](https://openh2.org/licensing) for details.
+The hardware designs documented on the site are open (CERN-OHL-W v2). This website is not: its code and written content are copyright openH2.org, all rights reserved, published to be visible rather than reused (see `LICENSE`). Details at [openh2.org/licensing](https://openh2.org/licensing).

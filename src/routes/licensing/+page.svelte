@@ -2,45 +2,18 @@
 	<title>Licensing | openH2</title>
 	<meta
 		name="description"
-		content="How openH2.org is licensed: website code, written content, and hardware designs."
+		content="How openH2.org is licensed: the hardware designs are open, the website itself is not."
 	/>
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Licensing</h1>
 	<p class="text-muted-foreground mt-4">
-		Everything on openH2.org is open. Different kinds of work call for different licenses, so here
-		is exactly what applies to what.
+		The hardware is the open part of this project. The website that presents it is not. Here is
+		exactly what applies to what.
 	</p>
 
 	<div class="mt-10 space-y-10">
-		<div>
-			<h2 class="text-xl font-semibold">Website code: MIT</h2>
-			<p class="text-muted-foreground mt-2">
-				The source code of this website is released under the
-				<a
-					href="https://opensource.org/license/mit"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="link">MIT License</a
-				>. Use it, copy it, adapt it. Just keep the copyright notice.
-			</p>
-		</div>
-
-		<div>
-			<h2 class="text-xl font-semibold">Written content: CC BY-SA 4.0</h2>
-			<p class="text-muted-foreground mt-2">
-				Articles, research notes, and other written content on this site are licensed under
-				<a
-					href="https://creativecommons.org/licenses/by-sa/4.0/"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="link">Creative Commons Attribution-ShareAlike 4.0</a
-				>. Share and adapt freely, with attribution to openH2.org, and derivative works must stay
-				under the same license.
-			</p>
-		</div>
-
 		<div>
 			<h2 class="text-xl font-semibold">Hardware designs: CERN-OHL-W v2</h2>
 			<p class="text-muted-foreground mt-2">
@@ -55,10 +28,24 @@
 				to everyone.
 			</p>
 		</div>
+
+		<div>
+			<h2 class="text-xl font-semibold">The website: all rights reserved</h2>
+			<p class="text-muted-foreground mt-2">
+				The source code of this site, its design, and the articles and research notes written for it
+				are copyright openH2.org. They are not licensed for reuse, republication, or redistribution,
+				and no permission is granted to copy the site or build another one from it.
+			</p>
+			<p class="text-muted-foreground mt-2">
+				Reading, linking, quoting a short passage with attribution, and sharing pages is all welcome
+				and always will be. If you want to translate something, reproduce a section elsewhere, or
+				use the material in teaching, ask and the answer will usually be yes.
+			</p>
+		</div>
 	</div>
 
 	<p class="text-muted-foreground mt-10 text-sm">
-		This page is a plain-language summary, not legal advice; the linked license texts are what
-		actually govern.
+		This page is a plain-language summary, not legal advice; the linked license text is what
+		actually governs the hardware designs.
 	</p>
 </section>
