@@ -66,7 +66,7 @@
 			reach inside the mitochondria where the most destructive radicals are made, and it appears to
 			switch on the cell's own antioxidant machinery rather than just mopping up. The other is
 			metabolic: hydrogen nudges the same fat-burning signals that fasting does, which makes
-			ketogenesis come easier. A lot of that work is still animal work, and I say so plainly on the
+			ketogenesis come easier. A lot of that work is still animal work, covered in detail on the
 			<a href="/research#evidence-ladder" class="link">research page</a>, but it was enough to make
 			me want to try it properly. I compared the real options for hydrogen therapy, tablets, water
 			machines, and inhalation, and building my own turned out to work better for me than any of

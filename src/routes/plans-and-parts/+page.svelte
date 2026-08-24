@@ -9,8 +9,7 @@
 <section class="mx-auto max-w-3xl px-4">
 	<h1 class="text-3xl font-bold tracking-tight md:text-4xl">Plans &amp; Parts</h1>
 	<p class="text-muted-foreground mt-4 text-lg">
-		An open source hydrogen generator you can build from common parts, designed safety-first and
-		documented honestly.
+		An open source hydrogen generator you can build from common parts, designed safety-first.
 	</p>
 
 	<div class="border-border bg-muted mt-6 rounded-lg border p-4 text-sm">

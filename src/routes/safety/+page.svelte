@@ -191,10 +191,10 @@
 					oxygen in it.
 				</p>
 				<p class="text-muted-foreground mt-2">
-					Being honest about it, geometry is not a barrier. Some oxygen dissolves in the electrolyte
-					and finds its way across, and a bubble knocked sideways can end up on the wrong side.
-					Separation here is very good rather than guaranteed, which is why the design leans on the
-					fuel-rich margin below.
+					Geometry is not a barrier, though. Some oxygen dissolves in the electrolyte and finds its
+					way across, and a bubble knocked sideways can end up on the wrong side. Separation here is
+					very good rather than guaranteed, which is why the design leans on the fuel-rich margin
+					below.
 				</p>
 				<p class="text-muted-foreground mt-2">
 					<span class="text-foreground font-medium">The geometry protects itself, too.</span> Restrict
@@ -846,13 +846,12 @@
 			<div class="border-border border-t pt-8">
 				<h2 id="status" class="text-2xl font-semibold tracking-tight">Status of this document</h2>
 				<p class="text-muted-foreground mt-3">
-					This is working safety documentation from an active project, and it is honest about where
-					it stands. The materials guidance is validated on my own hardware but has not yet had a
-					formal qualified review covering chemical, gas, and electrical safety, and the PEM section
-					describes a system still in bench testing. The lye first-aid guidance follows standard
-					chemical safety practice and is not a substitute for the safety data sheet that comes with
-					your product, or for professional medical advice in an actual incident. Nothing here has
-					been softened to make a build look simpler. Treat it as the beginning of your own
+					This is working safety documentation from an active project. The materials guidance is
+					validated on my own hardware but has not yet had a formal qualified review covering
+					chemical, gas, and electrical safety, and the PEM section describes a system still in
+					bench testing. The lye first-aid guidance follows standard chemical safety practice and is
+					not a substitute for the safety data sheet that comes with your product, or for
+					professional medical advice in an actual incident. Treat it as the beginning of your own
 					diligence rather than the end of it, and see the
 					<a href="/disclaimer" class="link">full disclaimer</a> for what that means legally.
 				</p>
