@@ -1,16 +1,18 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	type Section = { id: string; label: string };
+	type Section = { id: string; label: string; children?: Section[] };
 
 	let { sections, title = 'On this page' }: { sections: Section[]; title?: string } = $props();
 
+	const flat = $derived(sections.flatMap((s) => [s, ...(s.children ?? [])]));
+
 	let seen = $state('');
-	const active = $derived(seen || sections[0]?.id);
+	const active = $derived(seen || flat[0]?.id);
 
 	onMount(() => {
 		const visible = new Set<string>();
-		const order = sections.map((s) => s.id);
+		const order = flat.map((s) => s.id);
 
 		const io = new IntersectionObserver(
 			(entries) => {
@@ -52,6 +54,23 @@
 				>
 					{section.label}
 				</a>
+				{#if section.children?.length}
+					<ul class="space-y-1">
+						{#each section.children as child (child.id)}
+							<li>
+								<a
+									href="#{child.id}"
+									class="block border-l-2 py-1 pr-1 pl-6 no-underline transition-colors {active ===
+									child.id
+										? 'border-accent text-foreground font-medium'
+										: 'border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground'}"
+								>
+									{child.label}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				{/if}
 			</li>
 		{/each}
 	</ul>

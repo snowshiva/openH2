@@ -67,12 +67,12 @@
 			switch on the cell's own antioxidant machinery rather than just mopping up. The other is
 			metabolic: hydrogen nudges the same fat-burning signals that fasting does, which makes
 			ketogenesis come easier. A lot of that work is still animal work, covered in detail on the
-			<a href="/research#evidence-ladder" class="link">research page</a>, but it was enough to make
-			me want to try it properly. I compared the real options for hydrogen therapy, tablets, water
-			machines, and inhalation, and building my own turned out to work better for me than any of
-			them. Version after version, the design got simpler and better. Before I breathed any of it I
-			worked out what could go wrong: caustic electrolyte, a flammable gas, and the gases that must
-			never be allowed to mix. All of that became the
+			<a href="/research#health" class="link">research page</a>, but it was enough to make me want
+			to try it properly. I compared the real options for hydrogen therapy, tablets, water machines,
+			and inhalation, and building my own turned out to work better for me than any of them. Version
+			after version, the design got simpler and better. Before I breathed any of it I worked out
+			what could go wrong: caustic electrolyte, a flammable gas, and the gases that must never be
+			allowed to mix. All of that became the
 			<a href="/safety" class="link">safety page</a>, and it is the part I would read first. By the
 			sixth version it was good enough that I started hydrogen therapy myself.
 		</p>

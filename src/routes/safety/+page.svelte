@@ -37,7 +37,8 @@
 		<ul class="danger-list mt-4 list-disc space-y-3 pl-6 font-semibold md:text-lg">
 			<li>Never experiment with breathing unknown or untested experimental gases.</li>
 			<li>
-				Sodium chloride (table salt) in electrolysis creates poisonous chlorine gas. Never use it.
+				Sodium chloride (table salt) in electrolysis creates poisonous chlorine gas. Never breathe
+				gas made from sodium chloride electrolyte.
 			</li>
 			<li>Lye (NaOH soda lye, or KOH potash lye) is caustic and very dangerous.</li>
 			<li>
