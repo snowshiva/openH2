@@ -27,6 +27,23 @@
 		<div>
 			<h2 id="science" class="text-2xl font-semibold tracking-tight">The foundational science</h2>
 			<p class="text-muted-foreground mt-3">
+				Hydrogen therapy did not begin in a laboratory. Japan has been electrolyzing drinking water
+				for health since the 1950s: the first machines were built there between 1952 and 1954,
+				agricultural and then clinical interest followed, and in 1965 the Japanese Ministry of
+				Health approved water ionizers as medical devices for gastrointestinal complaints. Nobody
+				called it hydrogen therapy at the time; the machines were sold on alkalinity. But what forms
+				at the cathode is water carrying dissolved hydrogen gas, and a leading explanation today is
+				that the dissolved hydrogen, rather than the pH, accounts for what those users were
+				experiencing. Sixty years of routine domestic use is part of why hydrogen's safety record is
+				considered so strong.
+				<a
+					href="https://www.sciencedirect.com/science/article/pii/S0924224411002408"
+					class="link"
+					target="_blank"
+					rel="noopener noreferrer">Review of electrolyzed reduced water research</a
+				>.
+			</p>
+			<p class="text-muted-foreground mt-3">
 				Modern hydrogen medicine starts with Ohsawa and colleagues in <em>Nature Medicine</em>
 				(2007), who showed that molecular hydrogen selectively reduces the hydroxyl radical, the most
 				destructive reactive oxygen species in the body, along with peroxynitrite, while leaving alone
@@ -53,24 +70,56 @@
 			</h2>
 			<ul class="text-muted-foreground mt-3 list-disc space-y-2 pl-6">
 				<li>
-					<span class="text-foreground font-medium">Strongest human data:</span> metabolic health and
-					blood lipids (multiple trials and a meta-analysis showing reduced cholesterol and triglycerides),
-					and exercise recovery (reduced lactate and fatigue in athlete trials).
+					<span class="text-foreground font-medium">Best human evidence:</span> exercise recovery,
+					where a 2023 meta-analysis found reduced fatigue and improved aerobic capacity (<a
+						href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9934906/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">Frontiers in Nutrition</a
+					>). Metabolic effects are studied more but the results conflict: a 2023 meta-analysis
+					found improved blood lipids (<a
+						href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9967957/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">review</a
+					>), while a later analysis of eight randomized trials found the same changes mostly fell
+					short of statistical significance (<a
+						href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11742746/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">review</a
+					>).
 				</li>
 				<li>
-					<span class="text-foreground font-medium">Established supportive role:</span>
-					blunting the side effects of cancer treatment, strictly as supportive care under oncology supervision,
-					never as a treatment itself.
+					<span class="text-foreground font-medium">Supportive care only:</span> blunting the side
+					effects of cancer treatment, strictly alongside standard therapy and under oncology
+					supervision, never as a treatment itself (<a
+						href="https://pubmed.ncbi.nlm.nih.gov/36708550/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">systematic review</a
+					>).
 				</li>
 				<li>
-					<span class="text-foreground font-medium">Promising but unproven:</span>
-					neurological conditions. The mechanism is attractive, but Parkinson's trials have been inconsistent,
-					and the honest read is unproven.
+					<span class="text-foreground font-medium">Promising but unproven:</span> neurological
+					conditions. The mechanism is attractive, but a randomized double-blind trial of hydrogen
+					inhalation in Parkinson's disease found no significant benefit over placebo (<a
+						href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8519836/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">pilot RCT</a
+					>).
 				</li>
 				<li>
-					<span class="text-foreground font-medium">Mostly animal work:</span> lung protection in smoke-exposure
-					models (directly relevant to why this project exists), wound healing, and most of the mechanistic
-					literature. Biological plausibility, not human proof.
+					<span class="text-foreground font-medium">Mostly animal work:</span> lung protection in
+					smoke-exposure models, directly relevant to why this project exists, where hydrogen
+					inhalation reduced emphysema and airway remodeling in mice (<a
+						href="https://pubmed.ncbi.nlm.nih.gov/30069319/"
+						class="link"
+						target="_blank"
+						rel="noopener noreferrer">J Thorac Dis</a
+					>). Also wound healing and most of the mechanistic literature. Biological plausibility,
+					not human proof.
 				</li>
 			</ul>
 		</div>
@@ -113,20 +162,13 @@
 					water balance and a measured water carryover rate on the hydrogen line.
 				</li>
 				<li>
-					An accidental polarity reversal became a useful stress test. The supply's voltage ceiling
-					acted as a safety limit, and an overnight cool-down test confirmed the cell recovered
-					fully: stable cold-start voltage at full current.
-				</li>
-				<li>
-					A week of confusing voltage drift traced, step by step, to contact resistance in test
-					leads rather than cell degradation. The takeaway is now protocol: measure your lead
-					resistance first and correct every reading for it.
+					Water comes out of the hydrogen port continuously. It is not a leak: each proton crossing
+					the membrane drags water molecules with it, so the gas side is wet by design. The rate is
+					slow, measured at roughly one drop every 75 seconds at 5 amps, but it never stops, which
+					is why the hydrogen line needs a trap that returns the water to the reservoir rather than
+					letting it collect in the tubing.
 				</li>
 			</ul>
-			<p class="text-muted-foreground mt-3">
-				A full bibliography with evidence grading for every citation is in preparation and will be
-				published on this page.
-			</p>
 		</div>
 	</div>
 </section>
