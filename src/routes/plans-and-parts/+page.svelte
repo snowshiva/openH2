@@ -59,7 +59,8 @@
 					water. An inner collection bell, open at the bottom, captures the hydrogen rising off the
 					cathode while oxygen escapes around it and vents separately. The gas then passes through a
 					bubbler, which scrubs caustic aerosol out of the stream, before reaching a nasal cannula.
-					It is an inhalation device only.
+					What you do with the gas is up to you. The design choices here, the collection bell and
+					the bubbler in particular, are aimed at making it clean enough to breathe.
 				</p>
 			</div>
 
@@ -84,11 +85,11 @@
 						strip, an ordinary regulated wall adapter, and aquarium-grade plumbing.
 					</li>
 					<li>
-						<span class="text-foreground font-medium">Built for inhalation.</span> Bubbling hydrogen through
-						water does dissolve it, so hydrogen water is not off the table in principle, but at this output
-						it is slow and capped at what water holds at atmospheric pressure. More to the point, gas
-						off an alkaline cell is the wrong source for anything you intend to drink. That job belongs
-						to a PEM system running on pure water (see the advanced track below).
+						<span class="text-foreground font-medium">Breathing, not drinking.</span> Bubbling hydrogen
+						through water does dissolve it, so hydrogen water is not off the table in principle, but at
+						this output it is slow and capped at what water holds at atmospheric pressure. More to the
+						point, gas off an alkaline cell is the wrong source for anything you intend to drink. That
+						job belongs to a PEM system running on pure water (see the advanced track below).
 					</li>
 				</ul>
 			</div>
