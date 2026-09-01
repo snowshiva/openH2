@@ -103,9 +103,8 @@
 				</p>
 
 				<p class="text-muted-foreground border-border mt-4 border-l-2 pl-4 text-sm">
-					Some of the part links are Amazon affiliate links, which cost you nothing extra. As an
-					Amazon Associate I earn from qualifying purchases. The parts listed are the ones I
-					actually use.
+					Links marked Amazon are affiliate links, which cost you nothing extra. As an Amazon
+					Associate I earn from qualifying purchases. The parts listed are the ones I actually use.
 				</p>
 
 				<h3 id="cell-parts" class="text-foreground mt-8 text-lg font-semibold">The cell</h3>
