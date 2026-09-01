@@ -16,5 +16,5 @@
 
 <!-- prettier-ignore -->
 <a {href} target="_blank" rel="noopener noreferrer nofollow sponsored" class="link"
-	>{@render children()}<span class="border-border text-muted-foreground ml-1 inline-block rounded-full border px-1.5 align-[0.09em] text-[0.65rem] leading-[1.5] font-medium tracking-wide uppercase">Amazon</span></a
+	>{@render children()}<span class="bg-badge text-badge-foreground ml-1 inline-block rounded-full px-1 align-[0.1em] text-[0.58rem] leading-[1.45] font-semibold tracking-wide uppercase">Amazon</span></a
 >

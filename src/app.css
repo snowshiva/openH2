@@ -17,6 +17,12 @@
 	/* Underlines sit lighter than the link text so they read as a hint. */
 	--link-underline: oklch(0.72 0.13 255);
 
+	/* Affiliate badge: the light blue, filled, with deep blue text on it.
+	   Measured 6.99:1 against --badge-foreground, so it clears AA at the
+	   small size the badge actually renders at. */
+	--badge: oklch(0.72 0.13 255);
+	--badge-foreground: oklch(0.22 0.06 255);
+
 	/* Caution palette for hazard callouts. The panel tint is given as hex
 	   because the equivalent oklch falls outside sRGB and would be clamped. */
 	--danger: oklch(0.5 0.2 27);
@@ -55,6 +61,9 @@
 	--accent: oklch(0.78 0.12 205);
 	--accent-foreground: oklch(0.18 0.035 218);
 	--link-underline: oklch(0.6 0.09 210);
+	/* In deep water the light blue of the theme is the accent cyan. 9.75:1. */
+	--badge: oklch(0.78 0.12 205);
+	--badge-foreground: oklch(0.18 0.035 218);
 	--danger: oklch(0.7 0.17 27);
 	--danger-bg: oklch(0.24 0.07 22);
 	--danger-fg: oklch(0.92 0.04 30);
@@ -74,6 +83,8 @@
 	--color-border: var(--border);
 	--color-accent: var(--accent);
 	--color-accent-foreground: var(--accent-foreground);
+	--color-badge: var(--badge);
+	--color-badge-foreground: var(--badge-foreground);
 }
 
 @layer base {
