@@ -126,12 +126,12 @@
 									<ul class="mt-2 space-y-1">
 										<li>
 											<AffiliateLink href="https://amzn.to/4h0VNtD">
-												Short 16 oz (what I use)
+												Short 16 oz (1 pint), what I use
 											</AffiliateLink>
 										</li>
 										<li>
 											<AffiliateLink href="https://amzn.to/3SrtVWi">
-												Standard taller wide-mouth
+												Standard taller 16 oz (1 pint)
 											</AffiliateLink>
 										</li>
 									</ul>
