@@ -122,11 +122,19 @@
 								<td class="text-foreground py-2 pr-4 font-medium">Outer jar</td>
 								<td class="py-2 pr-4">1</td>
 								<td class="py-2">
-									A wide-mouth mason jar. Either shape works:
-									<AffiliateLink href="https://amzn.to/4h0VNtD">short 16 oz</AffiliateLink>
-									(what I use) or the
-									<AffiliateLink href="https://amzn.to/3SrtVWi">standard taller</AffiliateLink>
-									wide-mouth. Quart jars work too.
+									A wide-mouth mason jar. Either shape works, and quart jars do too.
+									<ul class="mt-2 space-y-1">
+										<li>
+											<AffiliateLink href="https://amzn.to/4h0VNtD">
+												Short 16 oz (what I use)
+											</AffiliateLink>
+										</li>
+										<li>
+											<AffiliateLink href="https://amzn.to/3SrtVWi">
+												Standard taller wide-mouth
+											</AffiliateLink>
+										</li>
+									</ul>
 								</td>
 							</tr>
 							<tr class="border-border border-b">
