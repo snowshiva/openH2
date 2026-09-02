@@ -860,20 +860,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	.danger-panel {
-		background-color: var(--danger-bg);
-		border-color: var(--danger);
-		color: var(--danger-fg);
-	}
-
-	.danger-mark {
-		color: var(--danger);
-	}
-
-	.danger-list ::marker,
-	.danger-list li::marker {
-		color: var(--danger);
-	}
-</style>

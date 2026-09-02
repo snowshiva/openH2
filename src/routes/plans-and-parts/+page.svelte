@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Icon from '@iconify/svelte';
 	import SectionNav from '$lib/components/SectionNav.svelte';
 	import AffiliateLink from '$lib/components/AffiliateLink.svelte';
 
@@ -36,9 +37,12 @@
 		An open source hydrogen generator you can build from common parts, designed safety-first.
 	</p>
 
-	<div class="border-border bg-muted mt-6 max-w-2xl rounded-lg border p-4 text-sm">
-		<p class="text-foreground font-medium">Read before building</p>
-		<p class="text-muted-foreground mt-1">
+	<div class="danger-panel mt-6 max-w-2xl rounded-lg border-2 p-5">
+		<div class="flex items-center gap-3">
+			<Icon icon="lucide:triangle-alert" class="danger-mark h-6 w-6 shrink-0" />
+			<h2 class="danger-mark text-lg font-bold tracking-tight">Read before building</h2>
+		</div>
+		<p class="mt-3 font-medium">
 			Hydrogen is flammable and sodium hydroxide is caustic. Never use table salt as an electrolyte
 			(it makes chlorine gas), and never drink the water from an electrolyte cell. Read the
 			<a href="/safety" class="link">full safety documentation</a> before you build or operate any

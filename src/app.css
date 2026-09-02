@@ -171,4 +171,33 @@
 		text-decoration-color: var(--link-underline);
 		text-underline-offset: 3px;
 	}
+
+	/* Hazard callouts. Global so every page warns in the same voice: pair
+	   .danger-panel with border-2 and a radius, .danger-mark on the icon and
+	   heading, .danger-list on the bullets. */
+	.danger-panel {
+		background-color: var(--danger-bg);
+		border-color: var(--danger);
+		color: var(--danger-fg);
+	}
+
+	.danger-mark {
+		color: var(--danger);
+	}
+
+	.danger-list ::marker,
+	.danger-list li::marker {
+		color: var(--danger);
+	}
+
+	/* Links inside a hazard panel stay in the panel's voice rather than
+	   switching to accent blue, which reads as a different kind of message. */
+	.danger-panel .link {
+		color: inherit;
+		text-decoration-color: var(--danger);
+	}
+
+	.danger-panel .link:hover {
+		text-decoration-color: currentColor;
+	}
 }
