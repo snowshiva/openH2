@@ -6,4 +6,15 @@
 		Open source knowledge and hardware for molecular hydrogen: health, safety, and electrolysis
 		experimentation.
 	</p>
+	<div class="mt-10 aspect-[9/16] w-full max-w-xs overflow-hidden rounded-2xl shadow-lg">
+		<iframe
+			class="h-full w-full"
+			src="https://www.youtube-nocookie.com/embed/EIqAXF90uas"
+			title="openH2 on YouTube"
+			loading="lazy"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
+	</div>
 </section>
