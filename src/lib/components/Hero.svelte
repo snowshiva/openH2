@@ -6,7 +6,7 @@
 		Open source knowledge and hardware for molecular hydrogen: health, safety, and electrolysis
 		experimentation.
 	</p>
-	<div class="mt-10 aspect-[9/16] w-full max-w-xs overflow-hidden rounded-2xl shadow-lg">
+	<div class="mt-10 aspect-square w-full max-w-md overflow-hidden rounded-2xl shadow-lg">
 		<iframe
 			class="h-full w-full"
 			src="https://www.youtube-nocookie.com/embed/EIqAXF90uas"
