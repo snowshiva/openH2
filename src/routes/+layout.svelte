@@ -3,13 +3,15 @@
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import BubbleField from '$lib/components/BubbleField.svelte';
+	import Analytics from '$lib/components/Analytics.svelte';
+	import { site } from '$lib/site';
 	import { page } from '$app/state';
 
 	let { children } = $props();
 
 	// The site answers on both openh2.org and www.openh2.org. Point search
 	// engines at the bare domain so the two are not treated as duplicates.
-	const canonical = $derived(`https://openh2.org${page.url.pathname}`);
+	const canonical = $derived(`https://${site.domain}${page.url.pathname}`);
 </script>
 
 <svelte:head>
@@ -22,6 +24,7 @@
 	<link rel="canonical" href={canonical} />
 </svelte:head>
 
+<Analytics />
 <BubbleField />
 
 <div class="relative z-10 flex min-h-screen flex-col">
