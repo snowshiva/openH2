@@ -335,11 +335,13 @@
 					<span class="text-foreground font-medium">Optional, for experimenting:</span> an adjustable
 					supply with both a voltage setting and a current limit lets you run one cell or a three-cell
 					stack from the same box, dial the voltage in 0.01 V steps, and read volts and amps on the screen
-					while you watch what the cell does. The one I use is a step-down module: it takes 6 to 75 V
-					DC in and puts out 0 to 65 V at up to 22 A, with constant-voltage and constant-current limits
-					set from the front panel. It is not a wall supply on its own, so feed it from a regulated DC
-					adapter a few volts above the highest cell voltage you want (a 24 V brick covers a three-cell
-					stack).
+					while you watch what the cell does. The one I use is a buck (step-down) module: it takes 6 to
+					75 V DC in and puts out 0 to 65 V at up to 22 A, with constant-voltage and constant-current
+					limits set from the front panel. It is not a wall supply on its own; I feed it from the same
+					USB-C PD trigger board as the rest of the build, set to 20 V, on a desktop USB-C charger. That
+					draws about 20 V at 4 A from the charger, and the module steps it down to whatever the cell
+					stack wants. It runs 10 V at 8 A without complaint, which is where my experiments live, and
+					it is rated for far more than that.
 				</p>
 				<ul class="mt-2 space-y-1">
 					<li>
