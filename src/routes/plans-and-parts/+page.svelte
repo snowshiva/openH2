@@ -331,6 +331,23 @@
 					build off a power bank. Two rules: use a certified adapter, and use an accurately
 					regulated one, since an unregulated wall wart that floats high will run the cell hot.
 				</p>
+				<p class="text-muted-foreground mt-3">
+					<span class="text-foreground font-medium">Optional, for experimenting:</span> an adjustable
+					supply with both a voltage setting and a current limit lets you run one cell or a three-cell
+					stack from the same box, dial the voltage in 0.01 V steps, and read volts and amps on the screen
+					while you watch what the cell does. The one I use is a step-down module: it takes 6 to 75 V
+					DC in and puts out 0 to 65 V at up to 22 A, with constant-voltage and constant-current limits
+					set from the front panel. It is not a wall supply on its own, so feed it from a regulated DC
+					adapter a few volts above the highest cell voltage you want (a 24 V brick covers a three-cell
+					stack).
+				</p>
+				<ul class="mt-2 space-y-1">
+					<li>
+						<AffiliateLink href="https://link.amazon/B05x2OgKh">
+							Adjustable CC/CV step-down power supply, 0 to 65 V, 22 A, what I use for experiments
+						</AffiliateLink>
+					</li>
+				</ul>
 			</div>
 
 			<div>
