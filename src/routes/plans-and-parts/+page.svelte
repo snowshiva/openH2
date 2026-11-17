@@ -341,7 +341,7 @@
 					USB-C PD trigger board as the rest of the build, set to 20 V, on a desktop USB-C charger. That
 					draws about 20 V at 4 A from the charger, and the module steps it down to whatever the cell
 					stack wants. It runs 10 V at 8 A without complaint, which is where my experiments live, and
-					it is rated for far more than that.
+					it is rated for 1400 W.
 				</p>
 				<ul class="mt-2 space-y-1">
 					<li>
