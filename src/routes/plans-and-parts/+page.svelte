@@ -364,6 +364,25 @@
 						</AffiliateLink>
 					</li>
 				</ul>
+				<p class="text-muted-foreground mt-3">
+					The module ships bare, so it needs a box. I use a clear 6-compartment plastic divider box,
+					about 6.5 by 4.6 by 2.3 inches: pull the dividers out, hot glue the module to the bottom,
+					and hot glue a PD trigger board (from the parts list above) in beside it to feed it. The
+					clear lid means the display stays readable with the box closed. It is cheaper per box in
+					the 3-pack.
+				</p>
+				<ul class="mt-2 space-y-1">
+					<li>
+						<AffiliateLink href="https://link.amazon/B06Kn5eHs">
+							Clear 6-compartment divider box, single
+						</AffiliateLink>
+					</li>
+					<li>
+						<AffiliateLink href="https://www.amazon.com/dp/B078LSGW6H?tag=openh2-20">
+							Same style box, 3-pack
+						</AffiliateLink>
+					</li>
+				</ul>
 			</div>
 
 			<div>
