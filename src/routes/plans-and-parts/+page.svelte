@@ -231,7 +231,21 @@
 								<td class="py-2">
 									Sets the cell voltage from any USB-C charger or power bank, which is what makes a
 									cordless single-cell build possible. A regulated wall adapter at the right voltage
-									works just as well.
+									works just as well. Two kinds, either works: one with screw terminals and a DIP
+									switch to pick the voltage, no soldering; one with bare pads you solder the wires
+									to.
+									<ul class="mt-2 space-y-1">
+										<li>
+											<AffiliateLink href="https://link.amazon/B0b8wxiIP">
+												Screw-terminal version, DIP-switch voltage select, 5 to 20 V, 12-pack
+											</AffiliateLink>
+										</li>
+										<li>
+											<AffiliateLink href="https://link.amazon/B00Y6HTEe">
+												Solder-pad version, 5 / 9 / 12 / 20 V, 5-pack
+											</AffiliateLink>
+										</li>
+									</ul>
 								</td>
 							</tr>
 						</tbody>
@@ -264,8 +278,8 @@
 
 				<p class="text-muted-foreground mt-6 text-sm">
 					Still being specified: the stainless tube diameter, wall, and length; the clamp type and
-					size; wire gauge; which PD trigger board to recommend; and the nickel tape width and
-					thickness. Those land here with links as I settle them.
+					size; wire gauge; and the nickel tape width and thickness. Those land here with links as I
+					settle them.
 				</p>
 			</div>
 
