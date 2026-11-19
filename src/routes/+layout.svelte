@@ -12,6 +12,10 @@
 	// The site answers on both openh2.org and www.openh2.org. Point search
 	// engines at the bare domain so the two are not treated as duplicates.
 	const canonical = $derived(`https://${site.domain}${page.url.pathname}`);
+
+	// /background is an unlinked, content-free page for recording the bubble
+	// animation. It keeps the header but nothing else.
+	const bare = $derived(page.url.pathname === '/background');
 </script>
 
 <svelte:head>
@@ -32,5 +36,7 @@
 	<main class="flex-1">
 		{@render children()}
 	</main>
-	<Footer />
+	{#if !bare}
+		<Footer />
+	{/if}
 </div>
