@@ -4,6 +4,7 @@
 	import { page } from '$app/state';
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import { links } from '$lib/nav';
+	import { site } from '$lib/site';
 	import logo from '$lib/assets/logo.svg';
 
 	let open = $state(false);
@@ -21,13 +22,26 @@
 			<img src={logo} alt="" class="brand-mark h-8 w-auto" />
 			<span>open<span class="text-accent">H₂</span></span>
 		</a>
-		<button
-			onclick={() => (open = true)}
-			aria-label="Open menu"
-			class="text-muted-foreground hover:bg-muted hover:text-foreground rounded-lg p-2 transition-colors"
-		>
-			<Icon icon="lucide:menu" class="h-6 w-6" />
-		</button>
+		<div class="flex items-center gap-1">
+			<!-- The channel is where the build videos live, so it gets a permanent
+			     spot in the header rather than a line buried in the menu. -->
+			<a
+				href={site.youtube}
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="openH2 on YouTube"
+				class="text-muted-foreground hover:bg-muted hover:text-foreground rounded-lg p-2 transition-colors"
+			>
+				<Icon icon="lucide:youtube" class="h-6 w-6" />
+			</a>
+			<button
+				onclick={() => (open = true)}
+				aria-label="Open menu"
+				class="text-muted-foreground hover:bg-muted hover:text-foreground rounded-lg p-2 transition-colors"
+			>
+				<Icon icon="lucide:menu" class="h-6 w-6" />
+			</button>
+		</div>
 	</nav>
 </header>
 
@@ -77,6 +91,17 @@
 					</a>
 				{/each}
 			{/each}
+			<a
+				href={site.youtube}
+				target="_blank"
+				rel="noopener noreferrer"
+				onclick={close}
+				class="text-muted-foreground hover:bg-muted hover:text-foreground border-border mt-2 flex items-center gap-2 rounded-lg border-t px-3 pt-4 pb-2 text-base transition-colors"
+			>
+				<Icon icon="lucide:youtube" class="h-5 w-5" />
+				YouTube
+				<Icon icon="lucide:external-link" class="ml-auto h-4 w-4 opacity-60" />
+			</a>
 		</nav>
 	</aside>
 {/if}

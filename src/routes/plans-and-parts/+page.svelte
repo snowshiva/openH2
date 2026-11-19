@@ -424,8 +424,14 @@
 				<h2 id="status" class="text-2xl font-semibold tracking-tight">Status</h2>
 				<p class="text-muted-foreground mt-3">
 					The parts list above is published and current. Step-by-step build instructions are next,
-					as a video series, with the <a href="/safety" class="link">safety documentation</a> as the
-					publishing gate. Prefer not to source everything yourself? See
+					as a video series on the
+					<a
+						href="https://www.youtube.com/@openH2"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="link">openH2 YouTube channel</a
+					>, with the <a href="/safety" class="link">safety documentation</a> as the publishing
+					gate. Prefer not to source everything yourself? See
 					<a href="/plans-and-parts/kits" class="link">Kits</a>
 					and
 					<a href="/plans-and-parts/prebuilt-machines" class="link">Prebuilt Machines</a>.

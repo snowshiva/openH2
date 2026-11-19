@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { links } from '$lib/nav';
+	import { site } from '$lib/site';
 </script>
 
 <footer class="border-border border-t">
@@ -13,6 +14,10 @@
 					{link.label}
 				</a>
 			{/each}
+			<span class="text-muted-foreground select-none" aria-hidden="true">|</span>
+			<a href={site.youtube} target="_blank" rel="noopener noreferrer" class="link-plain">
+				YouTube ↗
+			</a>
 		</nav>
 		<p class="text-muted-foreground mx-auto mt-4 max-w-2xl text-center text-xs leading-relaxed">
 			Everything on openH2.org is educational content, not medical advice. Consult a qualified
